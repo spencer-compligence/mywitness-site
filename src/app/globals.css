@@ -4,7 +4,8 @@
 
 @layer base {
   body {
-    @apply bg-warm-white text-sage-800 antialiased;
+    background-color: #fdfdf8;
+    @apply text-sage-800 antialiased;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -30,8 +31,9 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-sage-600 text-warm-white font-semibold py-3 px-6 rounded-lg 
+    @apply bg-sage-600 font-semibold py-3 px-6 rounded-lg 
            hover:bg-sage-700 hover:shadow-lg transition-all duration-200;
+    color: #fdfdf8;
   }
   
   .btn-secondary {

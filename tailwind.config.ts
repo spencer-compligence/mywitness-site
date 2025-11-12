@@ -26,10 +26,8 @@ const config: Config = {
           light: '#e5c966',
           dark: '#b8941f',
         },
-        warm: {
-          white: '#fdfdf8',
-          gray: '#f5f5f0',
-        },
+        'warm-white': '#fdfdf8',
+        'warm-gray': '#f5f5f0',
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],

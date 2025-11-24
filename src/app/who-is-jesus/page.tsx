@@ -3,6 +3,7 @@ import Hebrews1Evidence from './components/Hebrews1Evidence';
 import Isaiah96Evidence from './components/Isaiah96Evidence';
 import WorshipEvidence from './components/WorshipEvidence';
 import John858Evidence from './components/John858Evidence';
+import John11Evidence from './components/John11Evidence';
 import Colossians1Evidence from './components/Colossians1Evidence';
 import RevelationAlphaOmegaEvidence from './components/RevelationAlphaOmegaEvidence';
 import ThomasDeclarationEvidence from './components/ThomasDeclarationEvidence';
@@ -55,7 +56,8 @@ export default function WhoIsJesusPage() {
           <div className="space-y-4" style={{ color: '#2f3f2f', lineHeight: '1.8' }}>
             <p>
               I was raised as a Jehovah's Witness. For decades, I believed what I was taught: 
-              that Jesus was Michael the Archangel, a created being, and definitely not God.
+              that Jesus was Michael the Archangel, a created being, and definitely not God. 
+              I was taught to pray <em>through</em> Jesus to Jehovah — never <em>to</em> Jesus directly.
             </p>
             <p>
               But when I actually started reading the Bible for myself—not through the lens of 
@@ -63,9 +65,31 @@ export default function WhoIsJesusPage() {
               Jesus's deity is overwhelming and comes from every part of Scripture.
             </p>
             <p>
-              This page presents that evidence, using the Watchtower's own Kingdom Interlinear 
+              The day everything changed, I did something I had never done in my 32 years of life. 
+              I prayed <em>to</em> Jesus. Not through Him — <em>to</em> Him. I asked Him to show me 
+              if what I had learned was true, to show me that He was real and actually God. 
+              I was terrified. I thought I might be committing blasphemy.
+            </p>
+            <p>
+              The instant I said "Amen" in my head, the phone on my desk rang.
+            </p>
+            <p>
+              When I answered, a sound played for about fifteen to twenty seconds — something 
+              like music, but as a career IT professional, I knew it wasn't a modem or fax machine. 
+              It was otherworldly. Then it hung up.
+            </p>
+            <p>
+              I tried calling the number back and received a recording: "This line is not in service." 
+              When I performed a reverse lookup, I discovered that the phone number had been registered 
+              with the phone company but never activated — on my 18th birthday, over a decade earlier.
+            </p>
+            <p className="font-semibold" style={{ color: '#577557' }}>
+              Jesus answered. He is real. He is God. And He wants you to know Him.
+            </p>
+            <p>
+              This page presents the evidence I discovered, using the Watchtower's own Kingdom Interlinear 
               Translation and other primary sources. My goal isn't to attack anyone, but to share 
-              what I discovered when I let the Bible speak for itself.
+              what I found when I let the Bible speak for itself.
             </p>
           </div>
         </div>
@@ -157,14 +181,34 @@ export default function WhoIsJesusPage() {
             <John858Evidence />
           </section>
 
-          {/* Section 5: Colossians 1 */}
+          {/* Section 5: John 1:1 */}
           <section>
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
                 style={{ color: '#2f3f2f' }}
               >
-                Part 5: Colossians 1:15-17
+                Part 5: John 1:1
+              </h2>
+              <p 
+                className="text-lg"
+                style={{ color: '#577557', lineHeight: '1.7' }}
+              >
+                The most famous NWT mistranslation — "a god" instead of "God." 
+                Their own "article rule" collapses under scrutiny.
+              </p>
+            </div>
+            <John11Evidence />
+          </section>
+
+          {/* Section 6: Colossians 1 */}
+          <section>
+            <div className="mb-8">
+              <h2 
+                className="text-4xl font-serif font-bold mb-4"
+                style={{ color: '#2f3f2f' }}
+              >
+                Part 6: Colossians 1:15-17
               </h2>
               <p 
                 className="text-lg"
@@ -177,14 +221,14 @@ export default function WhoIsJesusPage() {
             <Colossians1Evidence />
           </section>
 
-          {/* Section 6: Revelation */}
+          {/* Section 7: Revelation */}
           <section>
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
                 style={{ color: '#2f3f2f' }}
               >
-                Part 6: Alpha and Omega
+                Part 7: Alpha and Omega
               </h2>
               <p 
                 className="text-lg"
@@ -197,14 +241,14 @@ export default function WhoIsJesusPage() {
             <RevelationAlphaOmegaEvidence />
           </section>
 
-          {/* Section 7: Thomas's Declaration */}
+          {/* Section 8: Thomas's Declaration */}
           <section>
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
                 style={{ color: '#2f3f2f' }}
               >
-                Part 7: "My Lord and My God"
+                Part 8: "My Lord and My God"
               </h2>
               <p 
                 className="text-lg"

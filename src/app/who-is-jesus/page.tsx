@@ -1,3 +1,4 @@
+import ScriptureWarning from './components/ScriptureWarning';
 import Hebrews1Evidence from './components/Hebrews1Evidence';
 import Isaiah96Evidence from './components/Isaiah96Evidence';
 import WorshipEvidence from './components/WorshipEvidence';
@@ -68,6 +69,11 @@ export default function WhoIsJesusPage() {
             </p>
           </div>
         </div>
+
+        {/* Scripture Warning Section */}
+        <section className="mb-16">
+          <ScriptureWarning />
+        </section>
 
         {/* Key Evidence Sections */}
         <div className="space-y-16">

@@ -7,10 +7,14 @@ import John11Evidence from './components/John11Evidence';
 import Colossians1Evidence from './components/Colossians1Evidence';
 import RevelationAlphaOmegaEvidence from './components/RevelationAlphaOmegaEvidence';
 import ThomasDeclarationEvidence from './components/ThomasDeclarationEvidence';
+import TableOfContents from './components/TableOfContents';
 
 export default function WhoIsJesusPage() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#fdfdf8' }}>
+      {/* Table of Contents Navigation */}
+      <TableOfContents />
+
       {/* Hero Section */}
       <div 
         className="py-20 px-4"
@@ -41,7 +45,8 @@ export default function WhoIsJesusPage() {
       {/* Introduction */}
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div 
-          className="rounded-xl p-8 mb-12"
+          id="personal-journey"
+          className="rounded-xl p-8 mb-12 scroll-mt-24"
           style={{ 
             backgroundColor: '#f6f8f6',
             borderLeft: '4px solid #577557'
@@ -95,14 +100,14 @@ export default function WhoIsJesusPage() {
         </div>
 
         {/* Scripture Warning Section */}
-        <section className="mb-16">
+        <section id="scripture-warning" className="mb-16 scroll-mt-24">
           <ScriptureWarning />
         </section>
 
         {/* Key Evidence Sections */}
         <div className="space-y-16">
           {/* Section 1: Worship */}
-          <section>
+          <section id="part-1-worship" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -122,7 +127,7 @@ export default function WhoIsJesusPage() {
           </section>
 
           {/* Section 2: Hebrews 1 */}
-          <section>
+          <section id="part-2-hebrews" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -142,7 +147,7 @@ export default function WhoIsJesusPage() {
           </section>
 
           {/* Section 3: Isaiah 9:6 */}
-          <section>
+          <section id="part-3-isaiah" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -162,7 +167,7 @@ export default function WhoIsJesusPage() {
           </section>
 
           {/* Section 4: John 8:58 */}
-          <section>
+          <section id="part-4-john858" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -182,7 +187,7 @@ export default function WhoIsJesusPage() {
           </section>
 
           {/* Section 5: John 1:1 */}
-          <section>
+          <section id="part-5-john11" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -202,7 +207,7 @@ export default function WhoIsJesusPage() {
           </section>
 
           {/* Section 6: Colossians 1 */}
-          <section>
+          <section id="part-6-colossians" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -222,7 +227,7 @@ export default function WhoIsJesusPage() {
           </section>
 
           {/* Section 7: Revelation */}
-          <section>
+          <section id="part-7-revelation" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -242,7 +247,7 @@ export default function WhoIsJesusPage() {
           </section>
 
           {/* Section 8: Thomas's Declaration */}
-          <section>
+          <section id="part-8-thomas" className="scroll-mt-24">
             <div className="mb-8">
               <h2 
                 className="text-4xl font-serif font-bold mb-4"
@@ -264,7 +269,8 @@ export default function WhoIsJesusPage() {
 
         {/* Conclusion */}
         <div 
-          className="rounded-xl p-8 mt-16"
+          id="conclusion"
+          className="rounded-xl p-8 mt-16 scroll-mt-24"
           style={{ 
             backgroundImage: 'linear-gradient(to bottom, #fff4e6, #f6f8f6)',
             borderLeft: '4px solid #d4af37'

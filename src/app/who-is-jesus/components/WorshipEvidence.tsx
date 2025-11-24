@@ -1,352 +1,303 @@
 export default function WorshipEvidence() {
   return (
     <div className="space-y-8">
-      <h4 className="text-2xl font-serif font-semibold" style={{ color: '#2f3f2f' }}>
-        Complete Proskuneo Evidence
-      </h4>
+      {/* Introduction to Proskuneo */}
+      <div className="rounded-xl p-6" style={{ backgroundColor: '#fff4e6', borderLeft: '4px solid #d4af37' }}>
+        <h4 className="text-xl font-semibold mb-3" style={{ color: '#2f3f2f' }}>
+          The Watchtower's Translation Promise
+        </h4>
+        <p className="italic mb-4" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+          "The New World Translation makes every effort to be consistent in its renderings. 
+          For a given Hebrew or Greek word, there has been assigned one English word, 
+          and this has been used as uniformly as the idiom or context permits."
+        </p>
+        <p className="text-sm" style={{ color: '#577557' }}>
+          — Watchtower Online Library, "Advantages of the New World Translation"
+        </p>
+      </div>
 
-      <p className="text-lg" style={{ color: '#577557' }}>
-        Here's every instance where Jesus receives proskuneo (worship) in the New Testament. 
-        Notice how the NWT consistently changes the translation to avoid calling it "worship."
-      </p>
-
-      {/* Matthew 2:2 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 2:2</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Wise men seeking Jesus</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσκυνῆσαι (proskunesai)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "do obeisance"<br/>
-              ESV/NIV/KJV: "worship"
+      <div className="rounded-xl p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
+        <h4 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
+          What is Proskuneo (προσκυνέω)?
+        </h4>
+        <div className="space-y-4" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+          <p>
+            <strong>Proskuneo</strong> (προσκυνέω) is the primary Greek word for worship in the New Testament. 
+            It appears <strong>55 times</strong> in the Greek text.
+          </p>
+          <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2">Greek Definition:</p>
+            <p className="italic">
+              "To kiss the hand, bow down before, show obeisance, to worship"
+            </p>
+            <p className="text-sm mt-2" style={{ color: '#577557' }}>
+              — Strong's G4352
             </p>
           </div>
-        </div>
-        <div className="rounded p-4 mb-3" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "Where is he who has been born king of the Jews? For we saw his star when it rose and have come to <strong>worship</strong> him."
-          </p>
-        </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>NWT:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "Where is the one born king of the Jews? For we saw his star when we were in the East, and we have come to <strong>do obeisance to</strong> him."
+          <p>
+            The word literally means to prostrate oneself in reverence. In the New Testament, 
+            it's used for worship given to God, to false gods, and—significantly—to Jesus.
           </p>
         </div>
       </div>
 
-      {/* Matthew 2:8 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 2:8</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Herod's instructions</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσκυνήσω (proskuneso)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "do obeisance"<br/>
-              ESV/NIV/KJV: "worship"
+      {/* The Pattern of Inconsistency */}
+      <div className="rounded-xl p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>
+        <h4 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
+          The Pattern: One Word, Two Translations
+        </h4>
+        
+        <div className="rounded p-4 mb-6" style={{ backgroundColor: '#fff4e6' }}>
+          <p className="font-semibold text-lg text-center mb-2" style={{ color: '#2f3f2f' }}>
+            How does the NWT translate "proskuneo"?
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6 mb-6">
+          <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8', border: '2px solid #577557' }}>
+            <p className="font-semibold mb-3 text-center" style={{ color: '#577557' }}>
+              When Directed to God, Angels, or Satan
             </p>
+            <p className="text-2xl font-bold text-center mb-3" style={{ color: '#2f3f2f' }}>
+              "WORSHIP"
+            </p>
+            <ul className="text-sm space-y-1" style={{ color: '#2f3f2f' }}>
+              <li>• Rev 5:14 — elders "worship" God ✓</li>
+              <li>• Rev 7:11 — angels "worship" God ✓</li>
+              <li>• Rev 19:4 — elders "worship" God ✓</li>
+              <li>• Matt 4:9 — Satan asks for "worship" ✓</li>
+              <li>• Matt 4:10 — "worship" the Lord your God ✓</li>
+              <li>• John 4:20-24 — "worship" the Father ✓</li>
+            </ul>
+          </div>
+
+          <div className="rounded p-4" style={{ backgroundColor: '#fff4e6', border: '2px solid #d4af37' }}>
+            <p className="font-semibold mb-3 text-center" style={{ color: '#435943' }}>
+              When Directed to Jesus
+            </p>
+            <p className="text-2xl font-bold text-center mb-3" style={{ color: '#d4af37' }}>
+              "OBEISANCE"
+            </p>
+            <ul className="text-sm space-y-1" style={{ color: '#2f3f2f' }}>
+              <li>• Matt 2:11 — wise men "do obeisance" ✗</li>
+              <li>• Matt 14:33 — disciples "do obeisance" ✗</li>
+              <li>• Matt 28:9 — women "do obeisance" ✗</li>
+              <li>• Matt 28:17 — disciples "do obeisance" ✗</li>
+              <li>• Luke 24:52 — disciples "do obeisance" ✗</li>
+              <li>• John 9:38 — blind man "does obeisance" ✗</li>
+            </ul>
           </div>
         </div>
-        <div className="rounded p-4 mb-3" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "...go and search diligently for the child, and when you have found him, bring me word, that I too may come and <strong>worship</strong> him."
+
+        <div className="rounded p-4" style={{ backgroundColor: '#e8ede8' }}>
+          <p className="text-center font-semibold" style={{ color: '#2f3f2f' }}>
+            Same Greek word. Different English translation. The ONLY difference? 
+            <span style={{ color: '#d4af37' }}> Who is receiving it.</span>
           </p>
         </div>
       </div>
 
-      {/* Matthew 2:11 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 2:11</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Wise men worship Jesus</p>
+      {/* The Statistics */}
+      <div className="rounded-xl p-6" style={{ backgroundColor: '#f6f8f6' }}>
+        <h4 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
+          The Numbers Don't Lie
+        </h4>
+        
+        <div className="grid md:grid-cols-3 gap-4 mb-6">
+          <div className="rounded p-4 text-center" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="text-3xl font-bold" style={{ color: '#577557' }}>55</p>
+            <p className="text-sm" style={{ color: '#2f3f2f' }}>Times proskuneo appears</p>
           </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνησαν (prosekunesan)</p>
+          <div className="rounded p-4 text-center" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="text-3xl font-bold" style={{ color: '#577557' }}>15</p>
+            <p className="text-sm" style={{ color: '#2f3f2f' }}>Times directed at Jesus</p>
           </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/NIV/KJV: "worshiped"
-            </p>
+          <div className="rounded p-4 text-center" style={{ backgroundColor: '#fff4e6' }}>
+            <p className="text-3xl font-bold" style={{ color: '#d4af37' }}>0</p>
+            <p className="text-sm" style={{ color: '#2f3f2f' }}>Times NWT translates it "worship" for Jesus</p>
           </div>
         </div>
-        <div className="rounded p-4 mb-3" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "And going into the house, they saw the child with Mary his mother, and they fell down and <strong>worshiped</strong> him."
-          </p>
-        </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
-          <p className="text-xs font-semibold mb-2" style={{ color: '#435943' }}>Note:</p>
-          <p className="text-sm" style={{ color: '#2f3f2f' }}>
-            The wise men <strong>fell down</strong> (προσέπεσαν) before Jesus and gave proskuneo. This is the posture 
-            of worship, not mere respect. They brought gifts fit for deity—gold, frankincense, and myrrh.
+
+        <div className="rounded p-4" style={{ backgroundColor: '#fff4e6' }}>
+          <p style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+            <strong>15 times</strong> people give proskuneo to Jesus in the New Testament. 
+            <strong>Zero times</strong> does the NWT translate it as "worship." 
+            Yet the same word is translated "worship" when given to God, angels, or even Satan.
           </p>
         </div>
       </div>
 
-      {/* Matthew 8:2 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 8:2</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Leper worships Jesus</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνει (prosekunei)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/KJV: "worshiped"<br/>
-              NIV: "knelt before"
-            </p>
+      {/* They Changed Their Own Translation */}
+      <div className="rounded-xl p-6" style={{ backgroundColor: '#fff4e6', borderLeft: '4px solid #d4af37' }}>
+        <h4 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
+          They Changed Their Own Translation
+        </h4>
+        
+        <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
+          <p className="font-semibold mb-2" style={{ color: '#435943' }}>Hebrews 1:6</p>
+          <p className="italic mb-3" style={{ color: '#2f3f2f' }}>
+            "But when he again brings his Firstborn into the inhabited earth, he says: 
+            'And let all God's angels _______ him.'"
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="rounded p-3" style={{ backgroundColor: '#e8ede8' }}>
+              <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>NWT 1950-1970:</p>
+              <p className="text-lg font-bold" style={{ color: '#577557' }}>"WORSHIP"</p>
+            </div>
+            <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', border: '2px solid #d4af37' }}>
+              <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>NWT 1980-Present:</p>
+              <p className="text-lg font-bold" style={{ color: '#d4af37' }}>"DO OBEISANCE"</p>
+            </div>
           </div>
         </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "And behold, a leper came to him and <strong>worshiped</strong> him, saying, 'Lord, if you will, you can make me clean.'"
+
+        <div className="rounded p-4" style={{ backgroundColor: '#e8ede8' }}>
+          <p style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+            <strong>The same Greek word. The same verse. The same translation committee.</strong> 
+            Why did they change "worship" to "obeisance" in 1980? What changed between 1970 and 1980? 
+            Not the Greek text. Only the Watchtower's need to distance Jesus from deity.
           </p>
         </div>
       </div>
 
-      {/* Matthew 9:18 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 9:18</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Ruler worships Jesus</p>
+      {/* Complete Proskuneo Evidence Table */}
+      <div className="rounded-xl p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
+        <h4 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
+          Complete Proskuneo Evidence
+        </h4>
+        <p className="mb-4" style={{ color: '#577557' }}>
+          Here's every instance where Jesus receives proskuneo in the New Testament. 
+          Notice how the NWT consistently avoids calling it "worship."
+        </p>
+
+        <div className="space-y-3">
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 2:2, 8, 11</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Wise men seeking to "worship" (ESV) / "do obeisance" (NWT) to the newborn king</p>
           </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνει (prosekunei)</p>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 8:2</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Leper "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
           </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/KJV: "worshiped"<br/>
-              NIV: "knelt before"
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 9:18</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Ruler "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
+          </div>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 14:33</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Disciples "worshiped" (ESV) / "did obeisance" (NWT) saying "You are the Son of God"</p>
+          </div>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 15:25</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Canaanite woman "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
+          </div>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 28:9</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Women "worshiped" (ESV) / "did obeisance" (NWT) to the risen Jesus</p>
+          </div>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 28:17</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Disciples "worshiped" (ESV) / "did obeisance" (NWT) to Jesus on the mountain</p>
+          </div>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Luke 24:52</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Disciples "worshiped" (ESV) / "did obeisance" (NWT) to Jesus at His ascension</p>
+          </div>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>John 9:38</p>
+            <p className="text-sm" style={{ color: '#577557' }}>Healed blind man "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
+          </div>
+          
+          <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', border: '2px solid #d4af37' }}>
+            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Hebrews 1:6</p>
+            <p className="text-sm" style={{ color: '#577557' }}>
+              God commands angels to "worship" (ESV) / "do obeisance" (NWT) to Jesus
+            </p>
+            <p className="text-xs mt-1" style={{ color: '#d4af37' }}>
+              Note: NWT said "worship" until 1980!
             </p>
           </div>
-        </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "While he was saying these things to them, behold, a ruler came in and <strong>worshiped</strong> him..."
-          </p>
         </div>
       </div>
 
-      {/* Matthew 14:33 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 14:33</p>
-            <p className="text-xs" style={{ color: '#577557' }}>After walking on water</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνησαν (prosekunesan)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/NIV/KJV: "worshiped"
+      {/* The Critical Question */}
+      <div className="rounded-xl p-6" style={{ backgroundColor: '#f6f8f6' }}>
+        <h4 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
+          Jesus Never Refused Proskuneo
+        </h4>
+        
+        <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
+          <p className="mb-3" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+            When people offered proskuneo to <strong>angels</strong>, what happened?
+          </p>
+          <div className="rounded p-3 mb-3" style={{ backgroundColor: '#fff4e6' }}>
+            <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+              "I fell down to worship [proskuneo] at the feet of the angel... But he said to me, 
+              '<strong>Do not do that!</strong> I am a fellow servant... <strong>Worship God!</strong>'"
             </p>
+            <p className="text-xs mt-1" style={{ color: '#577557' }}>— Revelation 22:8-9</p>
           </div>
-        </div>
-        <div className="rounded p-4 mb-3" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "And those in the boat <strong>worshiped</strong> him, saying, 'Truly you are the Son of God.'"
+          <p style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+            Angels refuse proskuneo and redirect it to God. 
+            <strong> But Jesus never refused it. Not once.</strong>
           </p>
         </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
-          <p className="text-xs font-semibold mb-2" style={{ color: '#435943' }}>Critical Point:</p>
-          <p className="text-sm" style={{ color: '#2f3f2f' }}>
-            Notice what they said WHILE worshiping: <strong>"Truly you are the Son of God."</strong> They 
-            weren't just showing respect. They were acknowledging His deity and worshiping Him for it.
-          </p>
-        </div>
-      </div>
 
-      {/* Matthew 15:25 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 15:25</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Canaanite woman</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνει (prosekunei)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/KJV: "worshiped"
+        <div className="rounded p-4" style={{ backgroundColor: '#fff4e6' }}>
+          <p className="mb-3" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+            When people offered proskuneo to <strong>Peter</strong>, what happened?
+          </p>
+          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+              "When Peter entered, Cornelius met him and fell down at his feet and worshiped him. 
+              But Peter lifted him up, saying, '<strong>Stand up; I too am just a man.</strong>'"
             </p>
+            <p className="text-xs mt-1" style={{ color: '#577557' }}>— Acts 10:25-26</p>
           </div>
-        </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "But she came and <strong>worshiped</strong> him, saying, 'Lord, help me.'"
-          </p>
-        </div>
-      </div>
-
-      {/* Matthew 28:9 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 28:9</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Women after resurrection</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνησαν (prosekunesan)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/NIV/KJV: "worshiped"
-            </p>
-          </div>
-        </div>
-        <div className="rounded p-4 mb-3" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "And they came up and took hold of his feet and <strong>worshiped</strong> him."
-          </p>
-        </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
-          <p className="text-xs font-semibold mb-2" style={{ color: '#435943' }}>Crucial Detail:</p>
-          <p className="text-sm" style={{ color: '#2f3f2f' }}>
-            This is AFTER the resurrection. Jesus is in His glorified state. They grab His feet and worship. 
-            If He's not God, this is the perfect moment to correct them. He doesn't.
-          </p>
-        </div>
-      </div>
-
-      {/* Matthew 28:17 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>Matthew 28:17</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Disciples on the mountain</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνησαν (prosekunesan)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/NIV/KJV: "worshiped"
-            </p>
-          </div>
-        </div>
-        <div className="rounded p-4 mb-3" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "And when they saw him they <strong>worshiped</strong> him, but some doubted."
-          </p>
-        </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
-          <p className="text-xs font-semibold mb-2" style={{ color: '#435943' }}>Notice:</p>
-          <p className="text-sm" style={{ color: '#2f3f2f' }}>
-            Even the doubters worshiped. This was the standard response to seeing the risen Christ. 
-            And immediately after receiving their worship, Jesus gives the Great Commission and promises: 
-            "I am with you always" (v20)—claiming omnipresence, a divine attribute.
-          </p>
-        </div>
-      </div>
-
-      {/* John 9:38 */}
-      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>
-        <div className="grid md:grid-cols-3 gap-4 mb-4">
-          <div>
-            <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>John 9:38</p>
-            <p className="text-xs" style={{ color: '#577557' }}>Blind man healed</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>Greek:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>προσεκύνησεν (prosekunesen)</p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-1" style={{ color: '#435943' }}>NWT vs Others:</p>
-            <p className="text-sm" style={{ color: '#2f3f2f' }}>
-              NWT: "did obeisance"<br/>
-              ESV/NIV/KJV: "worshiped"
-            </p>
-          </div>
-        </div>
-        <div className="rounded p-4 mb-3" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-1" style={{ color: '#435943' }}>ESV:</p>
-          <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
-            "He said, 'Lord, I believe,' and he <strong>worshiped</strong> him."
-          </p>
-        </div>
-        <div className="rounded p-4" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
-          <p className="text-xs font-semibold mb-2" style={{ color: '#435943' }}>The Context:</p>
-          <p className="text-sm mb-2" style={{ color: '#2f3f2f' }}>
-            Jesus asked him: "Do you believe in the Son of Man?" The man responded: "Lord, I believe" 
-            and immediately worshiped. This isn't casual respect—this is worship in response to belief 
-            in Jesus as the Son of Man (a Messianic/divine title from Daniel 7:13-14).
-          </p>
         </div>
       </div>
 
       {/* Summary */}
-      <div className="rounded-xl p-8" style={{ backgroundImage: 'linear-gradient(to right, #fff4e6, #f6f8f6)', borderLeft: '4px solid #d4af37' }}>
-        <h4 className="text-2xl font-serif font-semibold mb-4" style={{ color: '#2f3f2f' }}>
-          The Undeniable Pattern
+      <div className="rounded-xl p-8" style={{ backgroundImage: 'linear-gradient(to bottom, #fff4e6, #f6f8f6)', borderLeft: '4px solid #d4af37' }}>
+        <h4 className="text-2xl font-serif font-semibold mb-6 text-center" style={{ color: '#2f3f2f' }}>
+          The Evidence
         </h4>
-        <div className="space-y-3 mb-6">
-          <p style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            <strong>Same Greek Word:</strong> προσκυνέω (proskuneo) in every case
+
+        <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
+          <ul className="list-disc list-inside space-y-2" style={{ color: '#2f3f2f' }}>
+            <li>Proskuneo appears 55 times in the New Testament</li>
+            <li>15 times it's directed at Jesus</li>
+            <li>NWT translates it "worship" for God, angels, even Satan</li>
+            <li>NWT translates it "obeisance" 100% of the time for Jesus</li>
+            <li>They even changed Hebrews 1:6 from "worship" to "obeisance" in 1980</li>
+            <li>Angels and Peter refused proskuneo—Jesus never did</li>
+            <li>This violates their own stated translation principle</li>
+          </ul>
+        </div>
+
+        <div className="rounded p-6" style={{ backgroundColor: '#fdfdf8' }}>
+          <p className="text-xl font-semibold text-center mb-4" style={{ color: '#577557' }}>
+            Ask Any JW:
           </p>
-          <p style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            <strong>Same Action:</strong> Falling down, taking hold of feet, declaring belief
+          <p className="text-center mb-4" style={{ color: '#2f3f2f' }}>
+            "The Watchtower claims they translate each Greek word consistently. 
+            Why is proskuneo translated 'worship' when given to God or Satan, 
+            but 'obeisance' when given to Jesus?"
           </p>
-          <p style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            <strong>Same Translation (everywhere else):</strong> "Worship" when referring to God
-          </p>
-          <p style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            <strong>Different Translation (only for Jesus):</strong> "Do obeisance" or "pay homage"
+          <p className="text-center text-sm italic" style={{ color: '#577557' }}>
+            "And why did the NWT say angels should 'worship' Jesus in Hebrews 1:6 
+            from 1950-1970, but changed it to 'obeisance' in 1980?"
           </p>
         </div>
-        <p className="text-xl font-semibold text-center" style={{ color: '#577557' }}>
-          Why change the translation for Jesus if He's not God?
-        </p>
       </div>
     </div>
   );

@@ -22,21 +22,21 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
 
   return (
     <section
-      className="min-h-[600px] md:min-h-[600px] flex flex-col items-center justify-center px-5 py-20 text-center"
+      className="min-h-[650px] md:min-h-[700px] flex flex-col items-center justify-center px-5 py-24 text-center"
       style={{
         background: 'linear-gradient(135deg, #577557 0%, #6a8f6a 100%)',
       }}
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <h1
-          className="text-4xl md:text-5xl lg:text-[56px] font-serif font-bold mb-4 leading-tight"
+          className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 leading-tight"
           style={{ color: '#ffffff' }}
         >
           {title}
         </h1>
         <p
-          className="text-lg md:text-xl lg:text-2xl mb-10"
-          style={{ color: 'rgba(255, 255, 255, 0.9)' }}
+          className="text-xl md:text-2xl lg:text-3xl mb-12"
+          style={{ color: 'rgba(255, 255, 255, 0.9)', lineHeight: '1.4' }}
         >
           {subtitle}
         </p>
@@ -45,11 +45,11 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
           <a
             href={ctaLink}
             onClick={handleScrollClick}
-            className="inline-block px-12 py-4 text-lg font-semibold rounded-lg transition-all hover:opacity-90"
+            className="inline-block px-14 py-5 text-xl font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl"
             style={{
               backgroundColor: '#d4af37',
               color: '#2f3f2f',
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)',
+              boxShadow: '0 6px 20px rgba(0, 0, 0, 0.25)',
             }}
           >
             {ctaText}
@@ -57,11 +57,11 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
         ) : (
           <Link
             href={ctaLink}
-            className="inline-block px-12 py-4 text-lg font-semibold rounded-lg transition-all hover:opacity-90"
+            className="inline-block px-14 py-5 text-xl font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl"
             style={{
               backgroundColor: '#d4af37',
               color: '#2f3f2f',
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)',
+              boxShadow: '0 6px 20px rgba(0, 0, 0, 0.25)',
             }}
           >
             {ctaText}
@@ -70,9 +70,9 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
       </div>
 
       {/* Scroll indicator */}
-      <div className="mt-12 animate-bounce">
+      <div className="mt-16 animate-bounce">
         <svg
-          className="w-6 h-6"
+          className="w-8 h-8"
           fill="none"
           stroke="rgba(255, 255, 255, 0.7)"
           viewBox="0 0 24 24"

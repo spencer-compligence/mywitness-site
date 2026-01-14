@@ -4,24 +4,25 @@ import Link from 'next/link';
 
 export default function TestimonyTeaser() {
   return (
-    <section className="py-20 px-5" style={{ backgroundColor: '#f6f8f6' }}>
-      <div className="max-w-4xl mx-auto">
+    <section className="py-24 px-5" style={{ backgroundColor: '#f6f8f6' }}>
+      <div className="max-w-5xl mx-auto">
         <h2
-          className="text-3xl md:text-4xl font-serif font-bold mb-8 text-center"
+          className="text-4xl md:text-5xl font-serif font-bold mb-10 text-center"
           style={{ color: '#2f3f2f' }}
         >
           A Personal Journey
         </h2>
 
         <div
-          className="rounded-xl p-8 md:p-12"
+          className="rounded-2xl p-10 md:p-14"
           style={{
             backgroundColor: '#ffffff',
-            borderLeft: '4px solid #577557',
+            borderLeft: '6px solid #577557',
+            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
           }}
         >
           <div
-            className="text-lg md:text-xl leading-relaxed space-y-4"
+            className="text-xl md:text-2xl leading-relaxed space-y-5"
             style={{ color: '#2f3f2f', fontStyle: 'italic' }}
           >
             <p>
@@ -42,7 +43,7 @@ export default function TestimonyTeaser() {
               true, to show me that He was real and actually God. I was
               terrified. I thought I might be committing blasphemy.
             </p>
-            <p className="font-semibold" style={{ fontStyle: 'normal' }}>
+            <p className="font-semibold text-2xl md:text-3xl" style={{ fontStyle: 'normal' }}>
               The instant I said &lsquo;Amen&rsquo; in my head, the phone on my desk rang.
             </p>
             <p>
@@ -51,7 +52,7 @@ export default function TestimonyTeaser() {
               my 18th birthday, over a decade earlier.
             </p>
             <p
-              className="font-semibold pt-4"
+              className="font-semibold pt-4 text-2xl"
               style={{ color: '#577557', fontStyle: 'normal' }}
             >
               Jesus answered. He is real. He is God. And He wants you to know
@@ -59,22 +60,14 @@ export default function TestimonyTeaser() {
             </p>
           </div>
 
-          <div className="text-center mt-8">
+          <div className="text-center mt-10">
             <Link
               href="/my-story"
-              className="inline-block px-8 py-3 rounded-md font-semibold transition-all"
+              className="inline-block px-10 py-4 rounded-xl text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
               style={{
-                backgroundColor: 'transparent',
-                border: '2px solid #577557',
-                color: '#577557',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#577557';
-                e.currentTarget.style.color = '#ffffff';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = 'transparent';
-                e.currentTarget.style.color = '#577557';
+                backgroundColor: '#577557',
+                color: '#ffffff',
+                boxShadow: '0 4px 12px rgba(87, 117, 87, 0.3)',
               }}
             >
               Read My Full Story →

@@ -35,35 +35,35 @@ const evidenceCards: EvidenceCard[] = [
 
 export default function FeaturedEvidence() {
   return (
-    <section className="py-20 px-5" style={{ backgroundColor: '#fdfdf8' }}>
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12">
+    <section className="py-24 px-5" style={{ backgroundColor: '#fdfdf8' }}>
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-14">
           <h2
-            className="text-3xl md:text-4xl font-serif font-bold mb-4"
+            className="text-4xl md:text-5xl font-serif font-bold mb-5"
             style={{ color: '#2f3f2f' }}
           >
             See the Evidence for Yourself
           </h2>
-          <p className="text-lg" style={{ color: '#577557' }}>
+          <p className="text-xl md:text-2xl" style={{ color: '#577557' }}>
             Using the Watchtower&apos;s own Kingdom Interlinear Translation
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {evidenceCards.map((card) => (
-            <Link
+            <div
               key={card.title}
-              href={`/nwt-problem${card.anchor}`}
-              className="block rounded-xl p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group"
+              className="rounded-2xl p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col"
               style={{
                 backgroundColor: '#ffffff',
                 border: '2px solid #e8ede8',
-                minHeight: '350px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)',
+                minHeight: '420px',
               }}
             >
               {/* Title */}
               <h3
-                className="text-2xl font-serif font-semibold mb-2"
+                className="text-3xl font-serif font-semibold mb-3"
                 style={{ color: '#2f3f2f' }}
               >
                 {card.title}
@@ -71,7 +71,7 @@ export default function FeaturedEvidence() {
 
               {/* Scripture Quote */}
               <p
-                className="text-lg font-serif italic mb-4"
+                className="text-xl font-serif italic mb-5"
                 style={{ color: '#577557' }}
               >
                 {card.scripture}
@@ -79,20 +79,25 @@ export default function FeaturedEvidence() {
 
               {/* Excerpt */}
               <p
-                className="text-base mb-6"
-                style={{ color: '#666666', lineHeight: '1.6' }}
+                className="text-lg mb-8 flex-grow"
+                style={{ color: '#666666', lineHeight: '1.7' }}
               >
                 {card.excerpt}
               </p>
 
-              {/* Link */}
-              <span
-                className="inline-block font-semibold transition-colors group-hover:underline"
-                style={{ color: '#577557' }}
+              {/* Button */}
+              <Link
+                href={`/nwt-problem${card.anchor}`}
+                className="inline-block w-full px-8 py-4 rounded-xl text-lg font-semibold text-center transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                style={{
+                  backgroundColor: '#577557',
+                  color: '#ffffff',
+                  boxShadow: '0 4px 12px rgba(87, 117, 87, 0.3)',
+                }}
               >
                 Read More →
-              </span>
-            </Link>
+              </Link>
+            </div>
           ))}
         </div>
       </div>

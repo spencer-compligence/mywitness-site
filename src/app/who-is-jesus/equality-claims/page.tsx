@@ -71,7 +71,7 @@ export default function EqualityClaimsPage() {
           <ScripturePassage
             reference="John 14:9"
             title="'Whoever Has Seen Me Has Seen the Father'"
-            text="Jesus said to him, 'Have I been with you all so long and you have not come to know Me, Philip? He who has seen Me has seen the Father; how can you say, \"Show us the Father\"?'"
+            text="Jesus said to him, 'Have I been with you all so long and you have not come to know Me, Philip? He who has seen Me has seen the Father; how can you say, &quot;Show us the Father&quot;?'"
             whyItMatters="To see Jesus is to see God. This is possible only if Jesus shares the divine nature with the Father."
           />
 

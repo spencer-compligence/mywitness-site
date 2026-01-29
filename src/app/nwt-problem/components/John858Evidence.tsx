@@ -36,7 +36,7 @@ export default function John858Evidence() {
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
           <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Hebrew Text:</p>
-          <p className="text-2xl mb-2 text-right" dir="rtl" style={{ color: '#2f3f2f' }}>
+          <p className="text-2xl mb-2" dir="rtl" style={{ color: '#2f3f2f', textAlign: 'left' }}>
             אֶהְיֶה אֲשֶׁר אֶהְיֶה
           </p>
           <p className="text-lg mb-2" style={{ color: '#2f3f2f' }}>

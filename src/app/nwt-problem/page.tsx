@@ -73,6 +73,12 @@ export default function NWTProblemPage() {
           </h2>
           <div className="space-y-4" style={{ color: '#2f3f2f', lineHeight: '1.8' }}>
             <p>
+              In the <Link href="/why-the-bible-matters" style={{ color: '#577557', textDecoration: 'underline' }}>previous section</Link>,
+              we established that we agree: the Bible is God&apos;s inspired Word, and an accurate
+              translation is essential. The Watchtower itself has said you &ldquo;deserve nothing less.&rdquo;
+              Now let&apos;s examine whether the NWT meets that standard.
+            </p>
+            <p>
               The New World Translation is the foundation of Jehovah&apos;s Witness theology.
               Every doctrine, every teaching, every belief depends on this translation being accurate.
             </p>

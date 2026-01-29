@@ -161,69 +161,226 @@ export default function WorshipEvidence() {
         </div>
       </div>
 
-      {/* Complete Proskuneo Evidence Table */}
+      {/* Complete Proskuneo Evidence — Full Quotations */}
       <div className="rounded-xl p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
         <h4 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
           Complete Proskuneo Evidence
         </h4>
-        <p className="mb-4" style={{ color: '#577557' }}>
-          Here's every instance where Jesus receives proskuneo in the New Testament. 
-          Notice how the NWT consistently avoids calling it "worship."
+        <p className="mb-6" style={{ color: '#577557' }}>
+          Here is every instance where Jesus receives proskuneo in the New Testament,
+          with full quotations showing the LSB alongside the NWT rendering.
         </p>
 
-        <div className="space-y-3">
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 2:2, 8, 11</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Wise men seeking to "worship" (ESV) / "do obeisance" (NWT) to the newborn king</p>
+        <div className="space-y-6">
+          {/* Matt 2:2 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 2:2</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;Where is He who has been born King of the Jews? For we saw His star in the east and have come to <strong>worship</strong> Him.&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;Where is the one born king of the Jews? For we saw his star when we were in the East, and we have come to <strong>do him obeisance</strong>.&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 8:2</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Leper "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
+
+          {/* Matt 2:11 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 2:11</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And after coming into the house they saw the Child with Mary His mother; and they fell to the ground and <strong>worshiped</strong> Him. Then, opening their treasures, they presented to Him gifts of gold, frankincense, and myrrh.&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And when they went into the house, they saw the young child with Mary its mother, and falling down, they <strong>did obeisance</strong> to it.&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 9:18</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Ruler "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
+
+          {/* Matt 8:2 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 8:2</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And behold, a leper came to Him and <strong>worshiped</strong> Him, saying, &lsquo;Lord, if You are willing, You can make me clean.&rsquo;&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And look! a leper came up and began <strong>doing obeisance</strong> to him, saying: &lsquo;Lord, if you just want to, you can make me clean.&rsquo;&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 14:33</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Disciples "worshiped" (ESV) / "did obeisance" (NWT) saying "You are the Son of God"</p>
+
+          {/* Matt 9:18 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 9:18</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;While He was saying these things to them, behold, a synagogue official came and <strong>worshiped</strong> Him, saying, &lsquo;My daughter has just died; but come and lay Your hand on her, and she will live.&rsquo;&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;While he was telling them these things, look! a certain ruler who had come <strong>did obeisance</strong> to him, saying: &lsquo;By now my daughter must be dead; but come and lay your hand on her, and she will come to life.&rsquo;&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 15:25</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Canaanite woman "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
+
+          {/* Matt 14:33 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 14:33</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And those who were in the boat <strong>worshiped</strong> Him, saying, &lsquo;You are truly God&apos;s Son!&rsquo;&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;Then those in the boat <strong>did obeisance</strong> to him, saying: &lsquo;You really are God&apos;s Son.&rsquo;&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 28:9</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Women "worshiped" (ESV) / "did obeisance" (NWT) to the risen Jesus</p>
+
+          {/* Matt 15:25 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 15:25</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;But she came and was <strong>worshiping</strong> Him, saying, &lsquo;Lord, help me!&rsquo;&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;But the woman came and began <strong>doing obeisance</strong> to him, saying: &lsquo;Lord, help me!&rsquo;&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Matthew 28:17</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Disciples "worshiped" (ESV) / "did obeisance" (NWT) to Jesus on the mountain</p>
+
+          {/* Matt 28:9 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 28:9</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And behold, Jesus met them, saying, &lsquo;Rejoice!&rsquo; And they came up and took hold of His feet and <strong>worshiped</strong> Him.&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And look! Jesus met them and said: &lsquo;Good day!&rsquo; They approached and took hold of his feet and <strong>did obeisance</strong> to him.&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Luke 24:52</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Disciples "worshiped" (ESV) / "did obeisance" (NWT) to Jesus at His ascension</p>
+
+          {/* Matt 28:17 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Matthew 28:17</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And when they saw Him, they <strong>worshiped</strong> Him; but some doubted.&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And when they saw him, they <strong>did obeisance</strong>, but some doubted.&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fdfdf8' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>John 9:38</p>
-            <p className="text-sm" style={{ color: '#577557' }}>Healed blind man "worshiped" (ESV) / "did obeisance" (NWT) to Jesus</p>
+
+          {/* Luke 24:52 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Luke 24:52</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And they, after <strong>worshiping</strong> Him, returned to Jerusalem with great joy.&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And they <strong>did obeisance</strong> to him and returned to Jerusalem with great joy.&rdquo;
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', border: '2px solid #d4af37' }}>
-            <p className="font-semibold" style={{ color: '#2f3f2f' }}>Hebrews 1:6</p>
-            <p className="text-sm" style={{ color: '#577557' }}>
-              God commands angels to "worship" (ESV) / "do obeisance" (NWT) to Jesus
-            </p>
-            <p className="text-xs mt-1" style={{ color: '#d4af37' }}>
-              Note: NWT said "worship" until 1980!
+
+          {/* John 9:38 */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fdfdf8' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>John 9:38</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And he said, &lsquo;Lord, I believe.&rsquo; And he <strong>worshiped</strong> Him.&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;He said: &lsquo;I do put my faith in him, Lord.&rsquo; And he <strong>did obeisance</strong> to him.&rdquo;
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Hebrews 1:6 — Special */}
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#fff4e6', border: '2px solid #d4af37' }}>
+            <p className="font-semibold mb-2" style={{ color: '#2f3f2f' }}>Hebrews 1:6</p>
+            <div className="grid md:grid-cols-2 gap-3">
+              <div className="rounded p-3" style={{ backgroundColor: '#f6f8f6', borderLeft: '3px solid #577557' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#577557' }}>LSB:</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;And when He again brings the firstborn into the world, He says, &lsquo;And let all the angels of God <strong>worship</strong> Him.&rsquo;&rdquo;
+                </p>
+              </div>
+              <div className="rounded p-3" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+                <p className="text-xs font-bold mb-1" style={{ color: '#d4af37' }}>NWT (current):</p>
+                <p className="text-sm italic" style={{ color: '#2f3f2f' }}>
+                  &ldquo;But when he again brings his Firstborn into the inhabited earth, he says: &lsquo;And let all of God&apos;s angels <strong>do obeisance</strong> to him.&rsquo;&rdquo;
+                </p>
+              </div>
+            </div>
+            <p className="text-xs mt-3 font-semibold" style={{ color: '#d4af37' }}>
+              Note: The NWT translated this as &ldquo;worship&rdquo; from 1950&ndash;1970, then changed it to &ldquo;obeisance&rdquo; in 1980!
             </p>
           </div>
         </div>

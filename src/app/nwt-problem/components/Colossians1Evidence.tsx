@@ -65,15 +65,46 @@ export default function Colossians1Evidence() {
 
         <div className="rounded p-4 mt-4" style={{ backgroundColor: '#e8ede8' }}>
           <p className="text-sm" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
-            By adding "[other]" four times in verses 16-17, the NWT completely changes the meaning 
+            By adding &ldquo;[other]&rdquo; four times in verses 16&ndash;17, the NWT completely changes the meaning
             from Jesus being the eternal Creator to Jesus being the first creation.
+          </p>
+        </div>
+      </div>
+
+      {/* Colossians 1:17 Comparison */}
+      <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}>
+        <h5 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
+          Colossians 1:17 &mdash; The Same Pattern
+        </h5>
+        <p className="mb-4 text-sm" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+          The NWT doesn&apos;t stop at verse 16. They add &ldquo;[other]&rdquo; to verse 17 as well:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8', borderLeft: '3px solid #577557' }}>
+            <p className="text-sm font-semibold mb-2" style={{ color: '#577557' }}>Colossians 1:17 (ESV):</p>
+            <p className="text-sm italic" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+              &ldquo;And He is before <strong>all things</strong>, and in Him <strong>all things</strong> hold together.&rdquo;
+            </p>
+          </div>
+          <div className="rounded p-4" style={{ backgroundColor: '#fff4e6', borderLeft: '3px solid #d4af37' }}>
+            <p className="text-sm font-semibold mb-2" style={{ color: '#d4af37' }}>Colossians 1:17 (NWT):</p>
+            <p className="text-sm italic" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+              &ldquo;Also, he is before all <strong>[other]</strong> things, and by means of him all <strong>[other]</strong> things were made to exist.&rdquo;
+            </p>
+          </div>
+        </div>
+        <div className="rounded p-3 mt-4" style={{ backgroundColor: '#e8ede8' }}>
+          <p className="text-sm" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+            Once again, &ldquo;[other]&rdquo; is not in any Greek manuscript. Without it, the verse
+            declares Jesus exists before all things and holds all things together &mdash; a role
+            only God can fill.
           </p>
         </div>
       </div>
 
       <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6' }}>
         <h5 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
-          The Greek Doesn't Say "Other"
+          The Greek Doesn&apos;t Say &ldquo;Other&rdquo;
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
@@ -109,19 +140,20 @@ export default function Colossians1Evidence() {
 
           <div className="rounded p-4" style={{ backgroundColor: '#fff4e6' }}>
             <p className="text-sm font-semibold mb-2" style={{ color: '#2f3f2f' }}>
-              "Firstborn" = Preeminence, not first created
+              &ldquo;Firstborn&rdquo; = Preeminence, not first created
             </p>
             <p className="text-sm mb-3" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
-              In Jewish culture, "firstborn" meant rank and privilege, not chronological order.
+              In Jewish culture, &ldquo;firstborn&rdquo; meant rank and privilege, not chronological order.
             </p>
-            
-            <div className="text-sm" style={{ color: '#2f3f2f' }}>
-              <p className="font-semibold mb-1">Psalm 89:27 (about David):</p>
-              <p className="italic mb-2">
-                "I will make him the <strong>firstborn</strong>, the highest of the kings of the earth."
+
+            <div className="rounded p-3 mb-3" style={{ backgroundColor: '#fdfdf8', borderLeft: '3px solid #577557' }}>
+              <p className="text-sm font-semibold mb-1" style={{ color: '#577557' }}>Psalm 89:27 (LSB)</p>
+              <p className="text-sm italic" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+                &ldquo;I also shall make him My <strong>firstborn</strong>, the highest of the kings of the earth.&rdquo;
               </p>
-              <p className="text-xs" style={{ color: '#577557' }}>
-                David was the youngest of 8 brothers, but God called him "firstborn" = preeminent
+              <p className="text-xs mt-2" style={{ color: '#577557' }}>
+                David was Jesse&apos;s youngest son (1 Samuel 16:11), yet God calls him &ldquo;firstborn&rdquo; &mdash;
+                demonstrating that &ldquo;firstborn&rdquo; means preeminence and rank, not birth order.
               </p>
             </div>
           </div>

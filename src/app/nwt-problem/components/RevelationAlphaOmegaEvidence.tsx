@@ -77,18 +77,18 @@ export default function RevelationAlphaOmegaEvidence() {
           The Connection to Isaiah
         </h5>
 
-        <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Isaiah 44:6:</p>
+        <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8', borderLeft: '3px solid #577557' }}>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#577557' }}>Isaiah 44:6 (LSB):</p>
           <p className="italic mb-3" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            "Thus says the LORD, the King of Israel and his Redeemer, the LORD of hosts: 
-            'I am the <strong>first and I am the last</strong>; besides me there is no god.'"
+            &ldquo;Thus says Yahweh, the King of Israel and his Redeemer, Yahweh of hosts:
+            &lsquo;I am the <strong>first, and I am the last</strong>, and there is no God besides Me.&rsquo;&rdquo;
           </p>
         </div>
 
-        <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fff4e6' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Isaiah 48:12:</p>
+        <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8', borderLeft: '3px solid #577557' }}>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#577557' }}>Isaiah 48:12 (LSB):</p>
           <p className="italic mb-3" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            "I am he; I am the <strong>first, and I am the last</strong>."
+            &ldquo;Listen to Me, O Jacob, even Israel whom I called; I am He, I am the <strong>first, I am also the last</strong>.&rdquo;
           </p>
         </div>
 

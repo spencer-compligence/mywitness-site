@@ -76,46 +76,45 @@ export default function Isaiah96Evidence() {
             <div className="space-y-4">
               {/* Isaiah 10:21 */}
               <div className="rounded p-3" style={{ backgroundColor: '#e8ede8' }}>
-                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Isaiah 10:21</p>
-                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f' }}>
-                  "A remnant will return, the remnant of Jacob, to <strong>the mighty God [El Gibbor]</strong>."
+                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Isaiah 10:21 (LSB)</p>
+                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+                  &ldquo;A remnant will return, the remnant of Jacob, to <strong>the Mighty God</strong>.&rdquo;
                 </p>
                 <p className="text-sm mt-2 font-semibold" style={{ color: '#577557' }}>
-                  ⚠️ This refers to YHWH. The remnant returns to the Mighty God—YHWH.
+                  This refers to YHWH. The remnant returns to the Mighty God &mdash; YHWH.
                 </p>
               </div>
 
               {/* Jeremiah 32:18 */}
               <div className="rounded p-3" style={{ backgroundColor: '#e8ede8' }}>
-                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Jeremiah 32:18</p>
-                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f' }}>
-                  "...O great and mighty God [El Gibbor], whose name is the LORD of hosts..."
+                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Jeremiah 32:18 (LSB)</p>
+                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+                  &ldquo;Who shows lovingkindness to thousands, but repays the iniquity of fathers into the bosom of their children after them, O <strong>great and mighty God</strong>, Yahweh of hosts is His name.&rdquo;
                 </p>
                 <p className="text-sm mt-2 font-semibold" style={{ color: '#577557' }}>
-                  ⚠️ El Gibbor is explicitly connected to <strong>YHWH</strong> (the LORD of hosts).
+                  El Gibbor is explicitly connected to <strong>Yahweh</strong> of hosts by name.
                 </p>
               </div>
 
               {/* Deuteronomy 10:17 */}
               <div className="rounded p-3" style={{ backgroundColor: '#e8ede8' }}>
-                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Deuteronomy 10:17</p>
-                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f' }}>
-                  "For the LORD your God is God of gods and Lord of lords, <strong>the great God, 
-                  the mighty</strong>..."
+                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Deuteronomy 10:17 (LSB)</p>
+                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+                  &ldquo;For Yahweh your God is the God of gods and the Lord of lords, <strong>the great, the mighty</strong>, and the awesome God who does not show partiality nor take a bribe.&rdquo;
                 </p>
                 <p className="text-sm mt-2 font-semibold" style={{ color: '#577557' }}>
-                  ⚠️ YHWH is "the great El, the Gibbor."
+                  Yahweh is &ldquo;the great El, the Gibbor.&rdquo;
                 </p>
               </div>
 
               {/* Nehemiah 9:32 */}
               <div className="rounded p-3" style={{ backgroundColor: '#e8ede8' }}>
-                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Nehemiah 9:32</p>
-                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f' }}>
-                  "Now, therefore, our God, <strong>the great and mighty</strong> and awesome God..."
+                <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Nehemiah 9:32 (LSB)</p>
+                <p className="text-sm italic mb-2" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
+                  &ldquo;Now therefore, our God, <strong>the great, the mighty</strong>, and the awesome God, who keeps covenant and lovingkindness, do not let all the hardship seem insignificant before You, which has come upon us, our kings, our princes, our priests, our prophets, our fathers, and on all Your people, from the days of the kings of Assyria to this day.&rdquo;
                 </p>
                 <p className="text-sm mt-2 font-semibold" style={{ color: '#577557' }}>
-                  ⚠️ Prayer to "our God, the El Gibbor." This is YHWH.
+                  A prayer addressing Yahweh as &ldquo;our God, the El Gibbor.&rdquo;
                 </p>
               </div>
             </div>

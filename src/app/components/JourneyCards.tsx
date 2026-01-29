@@ -13,19 +13,19 @@ interface JourneyCard {
 
 const journeyCards: JourneyCard[] = [
   {
-    icon: '📖',
+    icon: '📜',
     number: 1,
+    headline: 'Why The Bible Matters',
+    subtext: 'We share common ground on Biblical authority. But does the Watchtower follow its own standard?',
+    ctaText: 'Start Here',
+    ctaLink: '/why-the-bible-matters',
+  },
+  {
+    icon: '📖',
+    number: 2,
     headline: 'Is the NWT Trustworthy?',
     subtext: "You've been taught it's the most accurate Bible. But what if it's not?",
     ctaText: 'See the Evidence',
-    ctaLink: '/nwt-problem',
-  },
-  {
-    icon: '🔍',
-    number: 2,
-    headline: 'The Mistranslations',
-    subtext: "Using the Watchtower's own Kingdom Interlinear Translation",
-    ctaText: 'Explore the Proof',
     ctaLink: '/nwt-problem',
   },
   {

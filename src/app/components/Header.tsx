@@ -9,6 +9,7 @@ export default function Header() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/my-story', label: 'My Story' },
+    { href: '/why-the-bible-matters', label: 'Why The Bible Matters' },
     { href: '/nwt-problem', label: 'The NWT Problem' },
     { href: '/which-bible', label: 'Which Bible?' },
     { href: '/who-is-jesus', label: 'Who Is Jesus?' },

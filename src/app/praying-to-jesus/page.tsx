@@ -282,7 +282,7 @@ export default function PrayingToJesusPage() {
           >
             <div className="space-y-5" style={{ color: '#2f3f2f', lineHeight: '1.9' }}>
               <p className="text-lg">
-                I was raised as a Jehovah&apos;s Witness. For 32 years, I did what I was taught:
+                I was raised as a Jehovah&apos;s Witness. For 34 years, I did what I was taught:
               </p>
               <ul className="ml-6 space-y-2 text-lg">
                 <li>• I prayed through Jesus to Jehovah</li>
@@ -302,7 +302,7 @@ export default function PrayingToJesusPage() {
                 The Day Everything Changed
               </h3>
               <p className="text-lg">
-                I was 32 years old. I had been studying the evidence for weeks. The Scriptures were
+                I was 34 years old. I had been studying the evidence for weeks. The Scriptures were
                 undeniable. But I was terrified.
               </p>
               <p className="text-lg">
@@ -361,8 +361,9 @@ export default function PrayingToJesusPage() {
                 What I Discovered
               </h3>
               <p className="text-lg">
-                As a career IT professional, my first thought was: &ldquo;That was weird. Probably a fax
-                machine or modem or something.&rdquo;
+                As a career IT professional, my first instinct was to find a rational explanation.
+                But I knew by the sounds that it wasn&apos;t a fax machine or modem&mdash;and it wasn&apos;t
+                a person either. It was a truly unique series of sounds that defied explanation.
               </p>
               <p className="text-lg">
                 But I was curious. I tried calling the number back.
@@ -374,7 +375,7 @@ export default function PrayingToJesusPage() {
                 I did a reverse lookup on the number. And what I found shocked me to my core:
               </p>
               <p className="text-xl font-bold" style={{ color: '#d4af37' }}>
-                The phone number had been registered with the phone company but never activated—on
+                The phone number had been registered with the phone company by a local Christian school but never activated—on
                 my 18th birthday, over a decade earlier.
               </p>
 

@@ -158,8 +158,8 @@ export default function ThomasDeclarationEvidence() {
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
           <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>John 20:30-31 (immediately after Thomas's declaration):</p>
           <p className="italic mb-3" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            "Now Jesus did many other signs... But these are written so that you may believe that 
-            <strong>Jesus is the Christ, the Son of God</strong>, and that by believing you may have life in his name."
+            &ldquo;Now Jesus did many other signs... But these are written so that you may believe that{' '}
+            <strong>Jesus is the Christ, the Son of God</strong>, and that by believing you may have life in his name.&rdquo;
           </p>
         </div>
 

@@ -357,10 +357,10 @@ export default function Hebrews1Evidence() {
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
           <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
-            "And, 'You, Lord, <strong>laid the foundation of the earth in the beginning</strong>, and 
-            <strong>the heavens are the work of your hands</strong>; they will perish, but you remain; 
-            they will all wear out like a garment, like a robe you will roll them up, like a garment they 
-            will be changed. <strong>But you are the same, and your years will have no end</strong>.'"
+            &ldquo;And, &lsquo;You, Lord, <strong>laid the foundation of the earth in the beginning</strong>,{' '}
+            and <strong>the heavens are the work of your hands</strong>; they will perish, but you remain;
+            they will all wear out like a garment, like a robe you will roll them up, like a garment they
+            will be changed. <strong>But you are the same, and your years will have no end</strong>.&rsquo;&rdquo;
           </p>
         </div>
 

@@ -60,8 +60,8 @@ export default function WhoIsJesusPage() {
             style={{ color: '#2f3f2f', lineHeight: '1.8' }}
           >
             This page presents the biblical evidence systematically, examining what Scripture actually
-            says about Jesus&apos;s identity. Click any section to expand it and see key passages,
-            or visit the dedicated page for the complete analysis.
+            says about Jesus&apos;s identity. Each section below presents key passages with analysis.
+            Visit the dedicated page for each section to see the complete collection of verses.
           </p>
           <p
             className="text-base italic"
@@ -121,7 +121,6 @@ export default function WhoIsJesusPage() {
             title="Old Testament Prophecies"
             description="10 passages written centuries before Jesus' birth that point to a Messiah who would be God Himself"
             subPageLink="/who-is-jesus/old-testament-prophecies"
-            defaultOpen={true}
           >
             <ScripturePassage
               reference="Isaiah 9:6"

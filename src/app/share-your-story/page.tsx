@@ -11,17 +11,20 @@ export default function ShareYourStoryPage() {
 
       {/* Hero Section */}
       <div
-        className="py-20 px-4 relative overflow-hidden hero-gradient-light hero-pattern-light"
+        className="py-20 px-4 relative overflow-hidden"
+        style={{
+          background: 'linear-gradient(180deg, #3a5a3a 0%, #4a6e4a 30%, #577557 60%, #6a8f6a 100%)',
+        }}
       >
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
             style={{
-              backgroundColor: 'rgba(255, 255, 255, 0.15)',
-              border: '1px solid rgba(255, 255, 255, 0.25)',
+              backgroundColor: 'rgba(255, 255, 255, 0.2)',
+              border: '1px solid rgba(255, 255, 255, 0.35)',
             }}
           >
-            <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
+            <span className="text-sm font-medium" style={{ color: '#ffffff' }}>
               Step 7 of 7
             </span>
           </div>
@@ -33,7 +36,7 @@ export default function ShareYourStoryPage() {
           </h1>
           <p
             className="text-xl md:text-2xl mb-4 max-w-2xl mx-auto"
-            style={{ color: 'rgba(255, 255, 255, 0.85)', lineHeight: '1.6' }}
+            style={{ color: '#ffffff', lineHeight: '1.6' }}
           >
             You&apos;ve taken the most important step of your life.
             Now you&apos;re part of a family that spans 2,000 years.

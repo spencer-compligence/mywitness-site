@@ -60,7 +60,7 @@ export default function ScriptureWarning() {
             Revelation 22:18-19
           </p>
           <p className="italic" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            "I warn everyone who hears the words of the prophecy of this book: 
+            "I warn everyone who hears the words of the prophecy of this book:{' '}
             <strong>if anyone adds to them, God will add to him the plagues described in this book, 
             and if anyone takes away from the words of the book of this prophecy, 
             God will take away his share in the tree of life</strong> and in the holy city, 

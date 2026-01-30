@@ -120,8 +120,8 @@ export default function WorshipEvidence() {
 
         <div className="rounded p-4" style={{ backgroundColor: '#fff4e6' }}>
           <p style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
-            <strong>15 times</strong> people give proskuneo to Jesus in the New Testament. 
-            <strong>Zero times</strong> does the NWT translate it as "worship." 
+            <strong>15 times</strong> people give proskuneo to Jesus in the New Testament.{' '}
+            <strong>Zero times</strong> does the NWT translate it as "worship."{' '}
             Yet the same word is translated "worship" when given to God, angels, or even Satan.
           </p>
         </div>
@@ -154,7 +154,7 @@ export default function WorshipEvidence() {
 
         <div className="rounded p-4" style={{ backgroundColor: '#e8ede8' }}>
           <p style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
-            <strong>The same Greek word. The same verse. The same translation committee.</strong> 
+            <strong>The same Greek word. The same verse. The same translation committee.</strong>{' '}
             Why did they change "worship" to "obeisance" in 1980? What changed between 1970 and 1980? 
             Not the Greek text. Only the Watchtower's need to distance Jesus from deity.
           </p>

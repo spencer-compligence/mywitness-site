@@ -147,7 +147,7 @@ export default function John858Evidence() {
 
         <p className="mb-4" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
           The Septuagint (LXX) was the Greek translation of the Hebrew Bible made by Jewish 
-          scholars around 200 BC. This is what Greek-speaking Jews in Jesus's day read and heard.
+          scholars around 200 BC. This is what Greek-speaking Jews in Jesus' day read and heard.
         </p>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
@@ -225,7 +225,7 @@ export default function John858Evidence() {
 
         <p className="mb-4" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
           Watch what the NWT does to completely sever the connection between 
-          God's name in Exodus and Jesus's claim in John:
+          God's name in Exodus and Jesus' claim in John:
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -453,7 +453,7 @@ export default function John858Evidence() {
           </p>
           <p className="text-center text-sm italic" style={{ color: '#577557' }}>
             "Isn't it convenient that all these changes work together to hide the connection 
-            between God's name and Jesus's claim?"
+            between God's name and Jesus' claim?"
           </p>
         </div>
       </div>

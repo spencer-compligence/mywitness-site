@@ -60,7 +60,7 @@ export default function WhoIsJesusPage() {
             style={{ color: '#2f3f2f', lineHeight: '1.8' }}
           >
             This page presents the biblical evidence systematically, examining what Scripture actually
-            says about Jesus&apos;s identity. Each section below presents key passages with analysis.
+            says about Jesus&apos; identity. Each section below presents key passages with analysis.
             Visit the dedicated page for each section to see the complete collection of verses.
           </p>
           <p

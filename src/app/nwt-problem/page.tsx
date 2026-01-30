@@ -84,7 +84,7 @@ export default function NWTProblemPage() {
             </p>
             <p>
               But what if it isn&apos;t? What if the translators systematically changed key verses
-              to hide the truth about Jesus&apos;s identity?
+              to hide the truth about Jesus&apos; identity?
             </p>
             <p>
               This page presents evidence from the Watchtower&apos;s <strong>own</strong> Kingdom
@@ -283,7 +283,7 @@ export default function NWTProblemPage() {
           </h2>
           <div className="space-y-4" style={{ color: '#2f3f2f', lineHeight: '1.8' }}>
             <p>
-              The NWT has been systematically altered to hide Jesus&apos;s deity. The evidence is
+              The NWT has been systematically altered to hide Jesus&apos; deity. The evidence is
               right there in the Watchtower&apos;s own Kingdom Interlinear Translation.
             </p>
             <p>
@@ -292,7 +292,7 @@ export default function NWTProblemPage() {
             <p>
               That&apos;s a fair question. You&apos;ve been taught that most translations remove God&apos;s name
               and can&apos;t be trusted. But there&apos;s good news: there&apos;s a modern, scholarly translation
-              that uses God&apos;s name (Yahweh) over 6,800 times <em>and</em> doesn&apos;t hide Jesus&apos;s deity.
+              that uses God&apos;s name (Yahweh) over 6,800 times <em>and</em> doesn&apos;t hide Jesus&apos; deity.
             </p>
             <div className="text-center pt-6">
               <Link

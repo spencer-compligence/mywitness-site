@@ -26,7 +26,7 @@ export default function WhichBiblePage() {
             className="text-xl md:text-2xl mb-8"
             style={{ color: '#577557', lineHeight: '1.6' }}
           >
-            Finding a translation that uses God&apos;s name AND doesn&apos;t hide Jesus&apos;s deity
+            Finding a translation that uses God&apos;s name AND doesn&apos;t hide Jesus&apos; deity
           </p>
           <div
             className="w-24 h-1 mx-auto"
@@ -175,7 +175,7 @@ export default function WhichBiblePage() {
               'Uses modern, readable English (published 2021)',
               'Is extremely accurate (word-for-word, formal equivalence)',
               'Is respected by scholars worldwide',
-              'Has NO theological agenda to hide Jesus\'s deity',
+              'Has NO theological agenda to hide Jesus\' deity',
               'Is available FREE online at lsbible.org',
             ].map((item, index) => (
               <div
@@ -374,7 +374,7 @@ export default function WhichBiblePage() {
                     ❌ Mistranslations
                   </td>
                   <td className="p-3 border-b" style={{ borderColor: '#d1dbd1', color: '#c62828' }}>
-                    Hides Jesus&apos;s deity
+                    Hides Jesus&apos; deity
                   </td>
                 </tr>
                 <tr style={{ backgroundColor: '#fdfdf8' }}>
@@ -506,7 +506,7 @@ export default function WhichBiblePage() {
           <div className="space-y-4" style={{ color: '#2f3f2f', lineHeight: '1.8' }}>
             <p>
               Now that you have a Bible translation you can trust—one that uses God&apos;s name
-              AND doesn&apos;t hide Jesus&apos;s deity—you&apos;re ready to discover who Jesus actually is
+              AND doesn&apos;t hide Jesus&apos; deity—you&apos;re ready to discover who Jesus actually is
               according to Scripture.
             </p>
             <div className="text-center pt-4">

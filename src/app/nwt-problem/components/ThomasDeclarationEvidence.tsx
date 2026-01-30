@@ -47,7 +47,7 @@ export default function ThomasDeclarationEvidence() {
 
       <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>
         <h5 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
-          Jesus's Response
+          Jesus&apos; Response
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>

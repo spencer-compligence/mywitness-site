@@ -670,7 +670,7 @@ export default function PrayingToJesusPage() {
               </h3>
               <p style={{ color: '#577557', lineHeight: '1.6' }}>
                 Look for churches that affirm: &ldquo;Jesus Christ is fully God and fully man.&rdquo;
-                Avoid churches that deny the Trinity or Jesus&apos;s deity.
+                Avoid churches that deny the Trinity or Jesus&apos; deity.
               </p>
             </div>
 

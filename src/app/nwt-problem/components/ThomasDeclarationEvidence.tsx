@@ -53,7 +53,7 @@ export default function ThomasDeclarationEvidence() {
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
           <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>John 20:29:</p>
           <p className="italic mb-3" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            "Jesus said to him, 'Have you believed because you have seen me? 
+            "Jesus said to him, 'Have you believed because you have seen me?{' '}
             <strong>Blessed are those who have not seen and yet have believed</strong>.'"
           </p>
         </div>

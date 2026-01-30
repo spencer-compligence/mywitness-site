@@ -124,7 +124,7 @@ export default function Hebrews1Evidence() {
             </p>
             <p className="text-sm mb-3" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
               "Bearing/carrying all things by the word of his power." Present tense—He is actively sustaining 
-              the universe right now. Not "helping God sustain it." Not "channeling God's power." 
+              the universe right now. Not "helping God sustain it." Not "channeling God's power."{' '}
               <strong>His power</strong>.
             </p>
             <p className="text-sm" style={{ color: '#577557', lineHeight: '1.6' }}>
@@ -234,7 +234,7 @@ export default function Hebrews1Evidence() {
           <div className="rounded p-4" style={{ backgroundColor: '#fff4e6' }}>
             <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>The Quote Source:</p>
             <p className="text-sm" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
-              This quotes from Deuteronomy 32:43 (Septuagint) or Psalm 97:7. Both passages are about worshiping 
+              This quotes from Deuteronomy 32:43 (Septuagint) or Psalm 97:7. Both passages are about worshiping{' '}
               <strong>YHWH</strong>. The writer of Hebrews applies a command to worship YHWH directly to Jesus.
             </p>
           </div>
@@ -260,7 +260,7 @@ export default function Hebrews1Evidence() {
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
           <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
-            "Of the angels he says, 'He makes his angels winds, and his ministers a flame of fire.' 
+            "Of the angels he says, 'He makes his angels winds, and his ministers a flame of fire.'{' '}
             <strong>But of the Son he says</strong>, '<strong>Your throne, O God, is forever and ever</strong>, 
             the scepter of uprightness is the scepter of your kingdom.'"
           </p>

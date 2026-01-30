@@ -52,7 +52,7 @@ export default function RevelationAlphaOmegaEvidence() {
           <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Revelation 22:12-13, 16:</p>
           <p className="italic mb-3" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
             "Behold, I am coming soon... I am the <strong>Alpha and the Omega</strong>, 
-            the first and the last, the beginning and the end... 
+            the first and the last, the beginning and the end...{' '}
             <strong>I, Jesus</strong>, have sent my angel to testify to you about these things."
           </p>
           <p className="text-sm" style={{ color: '#577557' }}>

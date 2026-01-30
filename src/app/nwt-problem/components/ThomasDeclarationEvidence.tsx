@@ -21,7 +21,7 @@ export default function ThomasDeclarationEvidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>John 20:28 (ESV):</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>John 20:28 (LSB):</p>
           <p className="text-lg italic" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
             "Thomas answered him, 'My Lord and <strong>my God</strong>!'"
           </p>

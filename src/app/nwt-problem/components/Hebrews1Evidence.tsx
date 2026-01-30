@@ -27,7 +27,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
             "Long ago, at many times and in many ways, God spoke to our fathers by the prophets, but in these 
             last days <strong>he has spoken to us by his Son, whom he appointed the heir of all things, through 
@@ -74,7 +74,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
             "He is <strong>the radiance of the glory of God</strong> and <strong>the exact imprint of his nature</strong>, 
             and he <strong>upholds the universe by the word of his power</strong>. After making purification for sins, 
@@ -151,7 +151,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
             "...having become as much superior to angels as the name he has inherited is more excellent than theirs. 
             For to which of the angels did God ever say, '<strong>You are my Son, today I have begotten you</strong>'? 
@@ -191,7 +191,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic text-lg" style={{ color: '#2f3f2f' }}>
             "And again, when he brings the firstborn into the world, he says, '<strong>Let all God's angels 
             worship him</strong>.'"
@@ -258,7 +258,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
             "Of the angels he says, 'He makes his angels winds, and his ministers a flame of fire.'{' '}
             <strong>But of the Son he says</strong>, '<strong>Your throne, O God, is forever and ever</strong>, 
@@ -302,7 +302,7 @@ export default function Hebrews1Evidence() {
               <p>• KJV: "But unto the Son he saith, Thy throne, <strong>O God</strong>..."</p>
               <p>• NIV: "But about the Son he says, 'Your throne, <strong>O God</strong>..."</p>
               <p>• NASB: "But of the Son He says, 'Your throne, <strong>O God</strong>..."</p>
-              <p>• ESV: "But of the Son he says, 'Your throne, <strong>O God</strong>..."</p>
+              <p>• LSB: "But of the Son he says, 'Your throne, <strong>O God</strong>..."</p>
             </div>
             <p className="text-sm mt-3 font-semibold" style={{ color: '#577557' }}>
               Hundreds of translations. Dozens of languages. Across 2000 years. All say "O God" except the NWT.
@@ -327,7 +327,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
             "You have loved righteousness and hated wickedness; therefore <strong>God, your God</strong>, 
             has anointed you with the oil of gladness beyond your companions."
@@ -355,7 +355,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
             &ldquo;And, &lsquo;You, Lord, <strong>laid the foundation of the earth in the beginning</strong>,{' '}
             and <strong>the heavens are the work of your hands</strong>; they will perish, but you remain;
@@ -424,7 +424,7 @@ export default function Hebrews1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>ESV:</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>LSB:</p>
           <p className="italic" style={{ color: '#2f3f2f' }}>
             "And to which of the angels has he ever said, '<strong>Sit at my right hand until I make your 
             enemies a footstool for your feet</strong>'?"

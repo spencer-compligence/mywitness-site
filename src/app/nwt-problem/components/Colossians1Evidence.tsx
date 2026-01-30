@@ -21,7 +21,7 @@ export default function Colossians1Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Colossians 1:16 (ESV):</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Colossians 1:16 (LSB):</p>
           <p className="italic" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
             "For by him <strong>all things</strong> were created, in heaven and on earth, visible and invisible, 
             whether thrones or dominions or rulers or authorities—<strong>all things</strong> were created 
@@ -81,7 +81,7 @@ export default function Colossians1Evidence() {
         </p>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="rounded p-4" style={{ backgroundColor: '#fdfdf8', borderLeft: '3px solid #577557' }}>
-            <p className="text-sm font-semibold mb-2" style={{ color: '#577557' }}>Colossians 1:17 (ESV):</p>
+            <p className="text-sm font-semibold mb-2" style={{ color: '#577557' }}>Colossians 1:17 (LSB):</p>
             <p className="text-sm italic" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
               &ldquo;And He is before <strong>all things</strong>, and in Him <strong>all things</strong> hold together.&rdquo;
             </p>

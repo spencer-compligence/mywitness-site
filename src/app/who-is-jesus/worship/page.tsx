@@ -107,7 +107,7 @@ export default function WorshipPage() {
             reference="Acts 7:59-60"
             title="Stephen Prayed to Jesus"
             text="They went on stoning Stephen as he called on the Lord and said, 'Lord Jesus, receive my spirit!' Then falling on his knees, he cried out with a loud voice, 'Lord, do not hold this sin against them!' Having said this, he fell asleep."
-            whyItMatters="Stephen prayed to Jesus as he was dying. This parallels Jesus' own prayer to the Father on the cross: 'Father, into Your hands I commit My spirit' (Luke 23:46). Prayer is an act of worship directed to God alone."
+            whyItMatters="Stephen prayed to Jesus as he was dying. This parallels Jesus' own prayer to the Father as He was dying: 'Father, into Your hands I commit My spirit' (Luke 23:46). Prayer is an act of worship directed to God alone."
             keyPoints={[
               "Stephen 'called on' (Greek: epikaloumenon) the Lord — the same word used for calling on God in prayer (Romans 10:12-14; Acts 2:21)",
               "He addressed Jesus directly: 'Lord Jesus, receive my spirit'",

@@ -25,7 +25,7 @@ export default function Isaiah96Evidence() {
         </h5>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
-          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Isaiah 9:6 (ESV):</p>
+          <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>Isaiah 9:6 (LSB):</p>
           <p className="text-lg italic" style={{ color: '#2f3f2f' }}>
             "For to us a child is born, to us a son is given; and the government shall be upon his shoulder, 
             and his name shall be called <strong>Wonderful Counselor, Mighty God, Everlasting Father, 

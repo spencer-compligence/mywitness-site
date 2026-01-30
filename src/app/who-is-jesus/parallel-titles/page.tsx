@@ -520,7 +520,7 @@ const parallelTitles: ParallelTitle[] = [
         text: 'And all drank the same spiritual drink, for they were drinking from a spiritual rock which followed them; and the rock was Christ\u2026 Nor let us put the Lord to the test, as some of them did and were destroyed by the serpents.',
       },
     ],
-    note: 'The earliest and best Greek manuscripts read \u201cJesus\u201d (\u1f38\u03b7\u03c3\u03bf\u1fe6\u03c2) instead of \u201cthe Lord\u201d in Jude 5 \u2014 indicating that Jesus was the one who delivered Israel from Egypt. This reading is found in manuscripts including Codex Alexandrinus (A), Codex Vaticanus (B), and others.',
+    note: 'The earliest and best Greek manuscripts read \u201cJesus\u201d (\u1f38\u03b7\u03c3\u03bf\u1fe6\u03c2) instead of \u201cthe Lord\u201d in Jude 5 \u2014 indicating that Jesus was the one who delivered Israel from Egypt. This reading is found in multiple fourth-century and fifth-century Greek manuscripts.',
   },
 ];
 

@@ -96,7 +96,7 @@ export default function IAmStatementsPage() {
             reference="John 8:28"
             title="'You Will Know That I Am'"
             text="So Jesus said, 'When you lift up the Son of Man, then you will know that I am, and I do nothing from Myself, but I speak these things as the Father taught Me.'"
-            whyItMatters="Jesus prophesies that His crucifixion ('when you lift up the Son of Man') will reveal His true identity as 'I AM.' The cross would prove He is who He claimed to be."
+            whyItMatters="Jesus prophesies that His crucifixion ('when you lift up the Son of Man') will reveal His true identity as 'I AM.' His death would prove He is who He claimed to be."
           />
 
           <ScripturePassage

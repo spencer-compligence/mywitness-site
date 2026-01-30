@@ -114,7 +114,7 @@ export default function OldTestamentPropheciesPage() {
             reference="Zechariah 12:10"
             title="Yahweh Says 'They Will Look on Me Whom They Have Pierced'"
             text="And I will pour out on the house of David and on the inhabitants of Jerusalem the Spirit of grace and of supplication, so that they will look on Me whom they have pierced; and they will mourn for Him, as one mourns for an only son, and they will weep bitterly over Him like the bitter weeping over a firstborn."
-            whyItMatters="Yahweh Himself is speaking ('I will pour out... they will look on Me'), yet He says He will be pierced. John 19:37 applies this prophecy directly to Jesus' crucifixion. Yahweh was pierced on the cross."
+            whyItMatters="Yahweh Himself is speaking ('I will pour out... they will look on Me'), yet He says He will be pierced. John 19:37 applies this prophecy directly to Jesus' crucifixion. Yahweh was pierced at His death."
           />
 
           <ScripturePassage

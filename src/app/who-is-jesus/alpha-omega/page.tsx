@@ -106,7 +106,7 @@ export default function AlphaOmegaPage() {
             whyItMatters="Jesus is 'the first and the last' — the same title Yahweh claims in Isaiah 44:6 and 48:12. But this 'first and last' was dead and is now alive — identifying the speaker as the crucified and risen Christ. Jesus claims Yahweh's exclusive title for Himself."
             keyPoints={[
               "'The first and the last' — Yahweh's title from Isaiah",
-              "'I was dead' — This identifies the speaker as Jesus, who died on the cross",
+              "'I was dead' — This identifies the speaker as Jesus, who was put to death",
               "'I am alive forevermore' — The resurrection",
               "'Keys of death and of Hades' — Divine authority over death",
             ]}

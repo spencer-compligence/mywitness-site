@@ -85,7 +85,7 @@ export default function PrayingToJesusPage() {
             <p className="text-base" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
               Stephen was being martyred. In his final moments, he didn&apos;t pray through Jesus
               to the Father—he prayed directly TO Jesus. His words parallel Jesus&apos; own prayer
-              on the cross: &ldquo;Father, into Your hands I commit My spirit&rdquo; (Luke 23:46).
+              as He was dying: &ldquo;Father, into Your hands I commit My spirit&rdquo; (Luke 23:46).
             </p>
           </div>
 
@@ -670,7 +670,7 @@ export default function PrayingToJesusPage() {
               </h3>
               <p style={{ color: '#577557', lineHeight: '1.6' }}>
                 Look for churches that affirm: &ldquo;Jesus Christ is fully God and fully man.&rdquo;
-                Avoid churches that deny the Trinity or Jesus&apos; deity.
+                Avoid churches that deny the deity of Christ.
               </p>
             </div>
 

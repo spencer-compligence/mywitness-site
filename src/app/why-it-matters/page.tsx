@@ -408,21 +408,6 @@ export default function WhyItMattersPage() {
             </p>
           </div>
 
-          <div
-            className="rounded-xl p-6"
-            style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}
-          >
-            <p className="italic mb-3" style={{ color: '#577557' }}>
-              T.F. Torrance explained the terrible implications:
-            </p>
-            <p style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-              &ldquo;If the deity of Christ is denied, then the cross becomes a terrible monstrosity.
-              If Jesus Christ is man only and not also God, then we lose faith in God, because how
-              could we believe in a God who allows the best man that ever lived to be put to death
-              on the cross?&rdquo;
-            </p>
-          </div>
-
           <p
             className="text-xl font-semibold mt-6"
             style={{ color: '#577557' }}
@@ -813,47 +798,6 @@ export default function WhyItMattersPage() {
               Read Full Responses to Objections →
             </Link>
           </div>
-        </section>
-
-        {/* Section 10: The Lewis Trilemma */}
-        <section className="mb-16">
-          <h2
-            className="text-3xl font-serif font-bold mb-6"
-            style={{ color: '#2f3f2f' }}
-          >
-            Liar, Lunatic, or Lord?
-          </h2>
-
-          <p
-            className="text-lg mb-6"
-            style={{ color: '#2f3f2f', lineHeight: '1.8' }}
-          >
-            If Jesus is not God, His claims make Him either a deliberate liar or a delusional lunatic.
-            There is no middle ground.
-          </p>
-
-          <div
-            className="rounded-xl p-6"
-            style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}
-          >
-            <p className="italic mb-3" style={{ color: '#577557' }}>
-              C.S. Lewis put it this way:
-            </p>
-            <p className="text-lg" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-              &ldquo;A man who was merely a man and said the sort of things Jesus said would not be
-              a great moral teacher. He would either be a lunatic—on the level with a man who says
-              he is a poached egg—or else he would be the Devil of Hell. You must make your choice.
-              Either this man was, and is, the Son of God: or else a madman or something worse.&rdquo;
-            </p>
-          </div>
-
-          <p
-            className="text-xl font-semibold mt-6"
-            style={{ color: '#577557' }}
-          >
-            You cannot simply call Jesus a &ldquo;good teacher&rdquo; while denying His deity.
-            His claims don&apos;t allow that option.
-          </p>
         </section>
 
         {/* What You Must Do */}

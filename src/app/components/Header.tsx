@@ -15,17 +15,18 @@ export default function Header() {
     { href: '/who-is-jesus', label: 'Who Is Jesus?' },
     { href: '/why-it-matters', label: 'Why It Matters' },
     { href: '/praying-to-jesus', label: 'Praying to Jesus' },
+    { href: '/share-your-story', label: 'Share Your Story' },
   ];
 
   return (
     <header
-      className="py-4 px-4 sticky top-0 z-50"
+      className="py-4 px-4 sticky top-0 z-50 backdrop-blur-md"
       style={{
-        backgroundColor: '#fdfdf8',
-        borderBottom: '2px solid #e8ede8',
+        backgroundColor: 'rgba(253, 253, 248, 0.9)',
+        borderBottom: '1px solid rgba(224, 232, 224, 0.8)',
       }}
     >
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link
           href="/"
@@ -36,13 +37,12 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-6">
+        <nav className="hidden lg:flex items-center space-x-5">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium transition-colors hover:underline"
-              style={{ color: '#577557' }}
+              className="nav-link text-sm"
             >
               {link.label}
             </Link>
@@ -84,16 +84,22 @@ export default function Header() {
       {mobileMenuOpen && (
         <div
           className="lg:hidden mt-4 pb-4 border-t"
-          style={{ borderColor: '#e8ede8' }}
+          style={{ borderColor: '#e0e8e0' }}
         >
-          <nav className="flex flex-col space-y-3 pt-4">
+          <nav className="flex flex-col space-y-1 pt-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-base font-medium px-4 py-2 rounded transition-colors"
+                className="text-base font-medium px-4 py-3 rounded-lg transition-colors"
                 style={{ color: '#577557' }}
                 onClick={() => setMobileMenuOpen(false)}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = 'rgba(87, 117, 87, 0.08)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                }}
               >
                 {link.label}
               </Link>

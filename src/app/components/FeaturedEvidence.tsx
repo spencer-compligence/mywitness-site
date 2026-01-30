@@ -3,101 +3,102 @@
 import Link from 'next/link';
 
 interface EvidenceCard {
+  reference: string;
   title: string;
-  scripture: string;
-  excerpt: string;
-  anchor: string;
+  preview: string;
+  href: string;
 }
 
 const evidenceCards: EvidenceCard[] = [
   {
-    title: 'John 8:58',
-    scripture: '"Before Abraham was, I am"',
-    excerpt:
-      'NWT changes "I am" to "I have been"—but the Greek clearly says "ego eimi" (I AM), the same divine name from Exodus 3:14. The Jews tried to stone Him for claiming to be YHWH.',
-    anchor: '#part-4-john858',
+    reference: 'John 8:58',
+    title: '"Before Abraham Was, I AM"',
+    preview:
+      'Jesus claims the divine name — and the Jews understood exactly what He meant. The NWT changes it to obscure the claim.',
+    href: '/nwt-problem#part-4-john858',
   },
   {
-    title: 'John 1:1',
-    scripture: '"The Word was a god"?',
-    excerpt:
-      'The NWT is the only major translation that says "a god." Their "article rule" to justify this falls apart when applied consistently. See the Kingdom Interlinear proof.',
-    anchor: '#part-5-john11',
+    reference: 'John 1:1',
+    title: '"The Word Was God"',
+    preview:
+      'Why the NWT\'s "a god" translation fails every Greek grammar test. See the Kingdom Interlinear proof.',
+    href: '/nwt-problem#part-5-john11',
   },
   {
-    title: "Thomas's Declaration",
-    scripture: '"My Lord and my God!"',
-    excerpt:
-      'Thomas calls Jesus "my God" directly to His face. Jesus doesn\'t correct him—He blesses him. The Greek grammar proves Thomas was addressing Jesus, not exclaiming.',
-    anchor: '#part-8-thomas',
+    reference: 'John 20:28',
+    title: '"My Lord and My God!"',
+    preview:
+      "Thomas calls Jesus 'my God' directly to His face. Jesus doesn't correct him — He blesses him.",
+    href: '/nwt-problem#part-8-thomas',
   },
 ];
 
 export default function FeaturedEvidence() {
   return (
-    <section className="py-24 px-5" style={{ backgroundColor: '#fdfdf8' }}>
+    <section className="py-24 md:py-32 px-5" style={{ backgroundColor: '#fdfdf8' }}>
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-14">
+        {/* Section Header */}
+        <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2
-            className="text-4xl md:text-5xl font-serif font-bold mb-5"
+            className="text-4xl md:text-5xl font-serif font-bold mb-6"
             style={{ color: '#2f3f2f' }}
           >
-            See the Evidence for Yourself
+            Evidence That Changes Everything
           </h2>
-          <p className="text-xl md:text-2xl" style={{ color: '#577557' }}>
-            Using the Watchtower&apos;s own Kingdom Interlinear Translation
+          <p className="text-lg" style={{ color: '#577557' }}>
+            These passages are at the heart of the debate. See for yourself what Scripture really says.
           </p>
+          <div className="glow-line w-48 mx-auto mt-8" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Evidence Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 stagger-children">
           {evidenceCards.map((card) => (
-            <div
-              key={card.title}
-              className="rounded-2xl p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col"
-              style={{
-                backgroundColor: '#ffffff',
-                border: '2px solid #e8ede8',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)',
-                minHeight: '420px',
-              }}
+            <Link
+              key={card.reference}
+              href={card.href}
+              className="card-modern group flex flex-col"
+              style={{ minHeight: '340px' }}
             >
+              {/* Reference Badge */}
+              <div
+                className="inline-block self-start px-3 py-1 rounded-full text-sm font-medium mb-4"
+                style={{
+                  backgroundColor: 'rgba(87, 117, 87, 0.1)',
+                  border: '1px solid rgba(87, 117, 87, 0.2)',
+                  color: '#577557',
+                }}
+              >
+                {card.reference}
+              </div>
+
               {/* Title */}
               <h3
-                className="text-3xl font-serif font-semibold mb-3"
+                className="text-xl font-serif font-bold mb-3 transition-colors duration-300 group-hover:text-sage-600"
                 style={{ color: '#2f3f2f' }}
               >
                 {card.title}
               </h3>
 
-              {/* Scripture Quote */}
+              {/* Preview */}
               <p
-                className="text-xl font-serif italic mb-5"
-                style={{ color: '#577557' }}
+                className="text-sm mb-6 leading-relaxed flex-grow"
+                style={{ color: '#5a6a5a' }}
               >
-                {card.scripture}
+                {card.preview}
               </p>
 
-              {/* Excerpt */}
-              <p
-                className="text-lg mb-8 flex-grow"
-                style={{ color: '#666666', lineHeight: '1.7' }}
+              {/* CTA */}
+              <span
+                className="inline-flex items-center gap-2 font-semibold text-sm transition-all duration-300 group-hover:gap-3"
+                style={{ color: '#d4af37' }}
               >
-                {card.excerpt}
-              </p>
-
-              {/* Button */}
-              <Link
-                href={`/nwt-problem${card.anchor}`}
-                className="inline-block w-full px-8 py-4 rounded-xl text-lg font-semibold text-center transition-all duration-300 hover:scale-105 hover:shadow-lg"
-                style={{
-                  backgroundColor: '#577557',
-                  color: '#ffffff',
-                  boxShadow: '0 4px 12px rgba(87, 117, 87, 0.3)',
-                }}
-              >
-                Read More →
-              </Link>
-            </div>
+                Examine the Evidence
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </span>
+            </Link>
           ))}
         </div>
       </div>

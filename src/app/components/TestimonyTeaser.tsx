@@ -4,75 +4,60 @@ import Link from 'next/link';
 
 export default function TestimonyTeaser() {
   return (
-    <section className="py-24 px-5" style={{ backgroundColor: '#f6f8f6' }}>
-      <div className="max-w-5xl mx-auto">
-        <h2
-          className="text-4xl md:text-5xl font-serif font-bold mb-10 text-center"
-          style={{ color: '#2f3f2f' }}
-        >
-          A Personal Journey
-        </h2>
+    <section
+      className="py-24 md:py-32 px-5 relative overflow-hidden"
+      style={{ backgroundColor: '#f6f8f6' }}
+    >
+      {/* Subtle pattern overlay */}
+      <div className="absolute inset-0 hero-pattern-light opacity-30" />
 
-        <div
-          className="rounded-2xl p-10 md:p-14"
-          style={{
-            backgroundColor: '#ffffff',
-            borderLeft: '6px solid #577557',
-            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
-          }}
-        >
+      <div className="relative max-w-4xl mx-auto">
+        <div className="text-center">
+          {/* Quote Icon */}
           <div
-            className="text-xl md:text-2xl leading-relaxed space-y-5"
-            style={{ color: '#2f3f2f', fontStyle: 'italic' }}
+            className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-8"
+            style={{
+              backgroundColor: 'rgba(212, 175, 55, 0.1)',
+              border: '1px solid rgba(212, 175, 55, 0.2)',
+            }}
           >
-            <p>
-              &ldquo;I was raised as a Jehovah&apos;s Witness. For 32 years, I believed what I was
-              taught: that Jesus was Michael the Archangel, a created being, and
-              definitely not God. I was taught to pray <em>through</em> Jesus to
-              Jehovah—never <em>to</em> Jesus directly.
-            </p>
-            <p>
-              But when I started reading the Bible for myself—not through
-              Watchtower publications—I discovered something that shocked me: the
-              evidence for Jesus&apos;s deity is overwhelming.
-            </p>
-            <p>
-              The day everything changed, I did something I had never done in my
-              32 years of life. I prayed <em>to</em> Jesus. Not through Him—
-              <em>to</em> Him. I asked Him to show me if what I had learned was
-              true, to show me that He was real and actually God. I was
-              terrified. I thought I might be committing blasphemy.
-            </p>
-            <p className="font-semibold text-2xl md:text-3xl" style={{ fontStyle: 'normal' }}>
-              The instant I said &lsquo;Amen&rsquo; in my head, the phone on my desk rang.
-            </p>
-            <p>
-              When I performed a reverse lookup on the number, I discovered it
-              had been registered with the phone company but never activated—on
-              my 18th birthday, over a decade earlier.
-            </p>
-            <p
-              className="font-semibold pt-4 text-2xl"
-              style={{ color: '#577557', fontStyle: 'normal' }}
+            <svg
+              className="w-8 h-8"
+              fill="none"
+              stroke="#d4af37"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
             >
-              Jesus answered. He is real. He is God. And He wants you to know
-              Him.&rdquo;
-            </p>
+              <path d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+            </svg>
           </div>
 
-          <div className="text-center mt-10">
-            <Link
-              href="/my-story"
-              className="inline-block px-10 py-4 rounded-xl text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
-              style={{
-                backgroundColor: '#577557',
-                color: '#ffffff',
-                boxShadow: '0 4px 12px rgba(87, 117, 87, 0.3)',
-              }}
-            >
-              Read My Full Story →
-            </Link>
-          </div>
+          {/* Quote */}
+          <blockquote
+            className="text-2xl md:text-3xl lg:text-4xl font-serif leading-relaxed mb-8"
+            style={{ color: '#2f3f2f' }}
+          >
+            &ldquo;The instant I said &lsquo;Amen&rsquo;&mdash;literally, the very second&mdash;the
+            phone on my desk rang.{' '}
+            <span style={{ color: '#577557' }}>Jesus answered.</span>&rdquo;
+          </blockquote>
+
+          {/* Attribution */}
+          <p className="mb-8" style={{ color: '#5a6a5a' }}>
+            &mdash; From a former Jehovah&apos;s Witness who prayed to Jesus for the first time
+            after 34 years
+          </p>
+
+          {/* CTA */}
+          <Link
+            href="/my-story"
+            className="btn-secondary inline-flex items-center gap-2"
+          >
+            Read the Full Story
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </div>
     </section>

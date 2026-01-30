@@ -37,30 +37,37 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
         <div
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 animate-fade-in"
           style={{
-            backgroundColor: 'rgba(255, 255, 255, 0.15)',
-            border: '1px solid rgba(255, 255, 255, 0.25)',
+            backgroundColor: 'rgba(255, 255, 255, 0.2)',
+            border: '1px solid rgba(255, 255, 255, 0.35)',
           }}
         >
           <span
             className="w-2 h-2 rounded-full animate-pulse"
             style={{ backgroundColor: '#d4af37' }}
           />
-          <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
+          <span className="text-sm font-medium" style={{ color: '#ffffff' }}>
             A Personal Journey of Discovery
           </span>
         </div>
 
         {/* Main Headline */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 animate-fade-in-up">
-          <span style={{ color: '#ffffff' }}>The Truth</span>
+          <span style={{ color: '#ffffff' }}>The Truth About</span>
           <br />
-          <span className="gradient-text">About Jesus</span>
+          <span
+            style={{
+              background: 'linear-gradient(135deg, #d4af37 0%, #f0d060 40%, #ffffff 60%, #f0d060 80%, #d4af37 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+            }}
+          >Jesus</span>
         </h1>
 
         {/* Subheadline */}
         <p
           className="text-xl md:text-2xl max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in-up animate-delay-200"
-          style={{ color: 'rgba(255, 255, 255, 0.85)' }}
+          style={{ color: '#ffffff' }}
         >
           What if everything you were taught about Jesus wasn&apos;t the complete picture?{' '}
           <span style={{ color: '#d4af37' }}>Begin a journey from doubt to discovery.</span>

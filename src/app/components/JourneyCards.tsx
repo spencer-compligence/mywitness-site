@@ -115,7 +115,7 @@ function JourneyCard({ step }: { step: JourneyStep }) {
   return (
     <Link
       href={step.ctaLink}
-      className="card-glow group relative overflow-hidden flex flex-col"
+      className="card-glow group relative flex flex-col"
       style={{ minHeight: '320px' }}
     >
       {/* Step Number — Large watermark */}

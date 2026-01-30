@@ -21,7 +21,12 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
   };
 
   return (
-    <section className="relative min-h-[700px] md:min-h-screen flex items-center justify-center hero-gradient-light hero-pattern-light overflow-hidden">
+    <section
+      className="relative min-h-[700px] md:min-h-screen flex items-center justify-center overflow-hidden"
+      style={{
+        background: 'linear-gradient(180deg, #3a5a3a 0%, #4a6e4a 30%, #577557 60%, #6a8f6a 100%)',
+      }}
+    >
       {/* Ambient Light Effects */}
       <div
         className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-[100px] animate-pulse"
@@ -101,17 +106,17 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
             href="/my-story"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300"
             style={{
-              border: '2px solid rgba(255, 255, 255, 0.3)',
+              border: '2px solid rgba(255, 255, 255, 0.7)',
               color: '#ffffff',
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
-              e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+              e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 1)';
               e.currentTarget.style.transform = 'translateY(-2px)';
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.backgroundColor = 'transparent';
-              e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+              e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.7)';
               e.currentTarget.style.transform = 'translateY(0)';
             }}
           >
@@ -134,7 +139,7 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
             height="32"
             className="w-8 h-8 flex-shrink-0"
             fill="none"
-            stroke="rgba(255, 255, 255, 0.6)"
+            stroke="rgba(255, 255, 255, 0.9)"
             viewBox="0 0 24 24"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

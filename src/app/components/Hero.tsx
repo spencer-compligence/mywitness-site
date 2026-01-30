@@ -75,7 +75,7 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
               className="btn-primary inline-flex items-center justify-center gap-2"
             >
               {ctaText}
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg width="20" height="20" className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
@@ -85,7 +85,7 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
               className="btn-primary inline-flex items-center justify-center gap-2"
             >
               {ctaText}
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg width="20" height="20" className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
@@ -123,7 +123,9 @@ export default function Hero({ title, subtitle, ctaText, ctaLink }: HeroProps) {
           }}
         >
           <svg
-            className="w-8 h-8"
+            width="32"
+            height="32"
+            className="w-8 h-8 flex-shrink-0"
             fill="none"
             stroke="rgba(255, 255, 255, 0.6)"
             viewBox="0 0 24 24"

@@ -56,7 +56,9 @@ export default function Header() {
           aria-label="Toggle menu"
         >
           <svg
-            className="w-6 h-6"
+            width="24"
+            height="24"
+            className="w-6 h-6 flex-shrink-0"
             fill="none"
             stroke="#577557"
             viewBox="0 0 24 24"

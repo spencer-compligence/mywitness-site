@@ -430,7 +430,7 @@ export default function WhichBiblePage() {
               </span>
               <div>
                 <p className="font-semibold mb-1" style={{ color: '#2f3f2f' }}>
-                  Visit lsbible.org
+                  Visit <a href="https://www.lsbible.org" target="_blank" rel="noopener noreferrer" style={{ color: '#d4af37', textDecoration: 'underline' }}>lsbible.org</a>
                 </p>
                 <p style={{ color: '#577557' }}>
                   The entire Bible is available free online

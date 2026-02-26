@@ -279,15 +279,19 @@ export default function ShareYourStoryPage() {
               className="text-2xl font-serif font-semibold mb-4 flex items-center gap-3"
               style={{ color: '#2f3f2f' }}
             >
-              <span className="text-3xl">📚</span> Books for Former JWs
+              <span className="text-3xl">📚</span> Books for Your New Journey
             </h3>
+            <p className="text-sm mb-4" style={{ color: '#5a6a5a' }}>
+              Now that you&apos;ve made your decision, these books will help you grow in grace
+              and understand your new faith:
+            </p>
             <div className="space-y-3">
               {[
-                { title: 'Crisis of Conscience', author: 'Raymond Franz', why: 'Former Governing Body member\'s story' },
-                { title: 'Reasoning from the Scriptures with JWs', author: 'Ron Rhodes', why: 'Apologetics resource' },
-                { title: 'The Kingdom of the Cults', author: 'Walter Martin', why: 'Comprehensive cult analysis' },
-                { title: 'Captives of a Concept', author: 'Don Cameron', why: 'Understanding the organization' },
-                { title: 'In Search of Christian Freedom', author: 'Raymond Franz', why: 'Follow-up to Crisis of Conscience' },
+                { title: 'Why Grace Changes Everything', author: 'Chuck Smith', why: 'Understanding God\'s grace — the antidote to performance-based faith' },
+                { title: 'The Grace Awakening', author: 'Charles Swindoll', why: 'Freedom and joy in the Christian life' },
+                { title: 'The Ragamuffin Gospel', author: 'Brennan Manning', why: 'God\'s unconditional love for the "bedraggled, beat-up, and burnt-out"' },
+                { title: 'Knowing God', author: 'J.I. Packer', why: 'A classic guide to understanding who God is' },
+                { title: 'Mere Christianity', author: 'C.S. Lewis', why: 'A clear explanation of core Christian beliefs' },
               ].map((book) => (
                 <div
                   key={book.title}
@@ -497,22 +501,30 @@ export default function ShareYourStoryPage() {
           }}
         >
           <div
-            className="rounded-xl p-6 mb-8"
+            className="rounded-xl p-6 mb-8 text-left"
             style={{ backgroundColor: '#fff8e6' }}
           >
             <p
-              className="text-xl md:text-2xl italic font-serif mb-3"
-              style={{ color: '#2f3f2f', lineHeight: '1.7' }}
+              className="text-lg md:text-xl italic font-serif mb-3"
+              style={{ color: '#2f3f2f', lineHeight: '1.8' }}
             >
-              &ldquo;For I am confident of this very thing, that He who began a good work
-              in you will perfect it until the day of Christ Jesus.&rdquo;
+              &ldquo;Who will bring a charge against God&apos;s elect? God is the one who justifies;
+              who is the one who condemns? Christ Jesus is He who died, yes, rather who was raised,
+              who is at the right hand of God, who also intercedes for us. Who will separate us from
+              the love of Christ? Will tribulation, or distress, or persecution, or famine, or
+              nakedness, or peril, or sword? Just as it is written, &lsquo;For Your sake we are being
+              put to death all day long; we were considered as sheep to be slaughtered.&rsquo; But in
+              all these things we overwhelmingly conquer through Him who loved us. For I am convinced
+              that neither death, nor life, nor angels, nor principalities, nor things present, nor
+              things to come, nor powers, nor height, nor depth, nor any other created thing, will be
+              able to separate us from the love of God, which is in Christ Jesus our Lord.&rdquo;
             </p>
-            <p className="text-sm font-semibold" style={{ color: '#577557' }}>
-              &mdash; Philippians 1:6 (LSB)
+            <p className="text-sm font-semibold text-right" style={{ color: '#577557' }}>
+              &mdash; Romans 8:33-39 (LSB)
             </p>
           </div>
 
-          <div className="space-y-2 mb-8">
+          <div className="space-y-3 mb-8">
             <p className="text-2xl md:text-3xl font-serif font-bold" style={{ color: '#2f3f2f' }}>
               You are loved.
             </p>
@@ -521,6 +533,9 @@ export default function ShareYourStoryPage() {
             </p>
             <p className="text-2xl md:text-3xl font-serif font-bold" style={{ color: '#d4af37' }}>
               You are His.
+            </p>
+            <p className="text-2xl md:text-3xl font-serif font-bold" style={{ color: '#2f3f2f' }}>
+              And NOTHING can take that from you.
             </p>
           </div>
 

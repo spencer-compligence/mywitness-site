@@ -131,7 +131,7 @@ export default function WhoIsJesusPage() {
             />
             <ScripturePassage
               reference="Micah 5:2"
-              title="The Ruler Whose Origin Is 'From Everlasting'"
+              title="The Ruler Whose Origin Is 'From the Days of Eternity'"
               text="But as for you, Bethlehem Ephrathah, too little to be among the clans of Judah, from you One will go forth for Me to be ruler in Israel. His goings forth are from long ago, from the days of eternity."
               whyItMatters="The phrase 'from the days of eternity' indicates the Messiah's eternal pre-existence. Only God is eternal. This prophecy was fulfilled in Jesus' birth in Bethlehem (Matthew 2:1-6)."
             />

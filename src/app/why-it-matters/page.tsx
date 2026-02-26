@@ -375,20 +375,6 @@ export default function WhyItMattersPage() {
 
           <div
             className="rounded-xl p-6 mb-6"
-            style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #577557' }}
-          >
-            <p className="italic mb-3" style={{ color: '#577557' }}>
-              Saint Anselm of Canterbury (1033-1109) articulated this in his classic work
-              &ldquo;Cur Deus Homo&rdquo; (Why God Became Man):
-            </p>
-            <p className="text-lg" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-              &ldquo;This debt was so great that, while none but man must solve the debt,
-              none but God was able to do it; so that he who does it must be both God and man.&rdquo;
-            </p>
-          </div>
-
-          <div
-            className="rounded-xl p-6 mb-6"
             style={{ backgroundColor: '#fff4e6', borderLeft: '4px solid #d4af37' }}
           >
             <p className="font-semibold mb-3" style={{ color: '#8b6914' }}>

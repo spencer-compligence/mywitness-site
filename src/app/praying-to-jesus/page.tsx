@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -182,6 +183,33 @@ export default function PrayingToJesusPage() {
               it deliberately because it directly contradicts their teaching that you should only
               pray through Jesus, not TO Him.
             </p>
+
+            {/* KIT Photo Evidence */}
+            <figure className="mt-6">
+              <div
+                className="rounded-xl overflow-hidden shadow-lg"
+                style={{ border: '2px solid #d4af37' }}
+              >
+                <Image
+                  src="/kit-john-14-14.jpg"
+                  alt="Kingdom Interlinear showing John 14:14 - Greek word 'me' (με) clearly visible"
+                  width={900}
+                  height={600}
+                  className="w-full h-auto"
+                />
+              </div>
+              <figcaption
+                className="mt-4 p-4 rounded-lg text-center"
+                style={{ backgroundColor: '#fff4e6', color: '#2f3f2f' }}
+              >
+                <p className="font-semibold mb-2">John 14:14 in the Kingdom Interlinear</p>
+                <p className="text-sm italic">
+                  The Greek word &ldquo;με&rdquo; (me) is clearly visible in the interlinear text:
+                  &ldquo;if ever anything you should ask ME in the name of me.&rdquo;
+                  Yet the NWT simply deleted it.
+                </p>
+              </figcaption>
+            </figure>
           </div>
 
           {/* Revelation 22:20 */}
@@ -628,6 +656,32 @@ export default function PrayingToJesusPage() {
               revealed Himself to you can reveal Himself to them.
             </p>
           </div>
+
+          {/* Romans 8:1 - No Condemnation */}
+          <div
+            className="rounded-xl p-6 md:p-8 mt-6"
+            style={{ backgroundColor: '#e8f5e8', borderLeft: '4px solid #2e7d32' }}
+          >
+            <p className="text-base mb-4" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+              And when they tell you that you&apos;re condemned — that you&apos;ve become an apostate
+              and God has rejected you — remember what Scripture says:
+            </p>
+            <div
+              className="rounded-lg p-4 mb-4"
+              style={{ backgroundColor: '#ffffff' }}
+            >
+              <p className="text-lg italic" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+                &ldquo;Therefore there is now <strong>no</strong> condemnation for those who are
+                in Christ Jesus.&rdquo;
+              </p>
+              <p className="text-sm mt-2 font-semibold" style={{ color: '#2e7d32' }}>
+                — Romans 8:1 (LSB)
+              </p>
+            </div>
+            <p className="text-lg font-bold text-center" style={{ color: '#2e7d32' }}>
+              Their verdict doesn&apos;t matter. <span style={{ color: '#d4af37' }}>His does.</span>
+            </p>
+          </div>
         </section>
 
         {/* Resources */}
@@ -679,12 +733,43 @@ export default function PrayingToJesusPage() {
               style={{ backgroundColor: '#f6f8f6' }}
             >
               <h3 className="text-lg font-semibold mb-3" style={{ color: '#2f3f2f' }}>
-                Books That Helped Me
+                Books for Your New Journey
               </h3>
-              <ul className="space-y-2" style={{ color: '#577557' }}>
-                <li>• <em>Reasoning from the Scriptures with Jehovah&apos;s Witnesses</em> by Ron Rhodes</li>
-                <li>• <em>Crisis of Conscience</em> by Raymond Franz (former Governing Body member)</li>
-                <li>• <em>The Kingdom of the Cults</em> by Walter Martin</li>
+              <p className="text-sm mb-4" style={{ color: '#577557' }}>
+                Now that you&apos;ve made your decision, these books will help you grow in grace
+                and understand your new faith:
+              </p>
+              <ul className="space-y-3" style={{ color: '#2f3f2f' }}>
+                <li>
+                  <strong>Why Grace Changes Everything</strong> by Chuck Smith
+                  <span className="block text-sm" style={{ color: '#577557' }}>
+                    Understanding God&apos;s grace — the antidote to performance-based faith
+                  </span>
+                </li>
+                <li>
+                  <strong>The Grace Awakening</strong> by Charles Swindoll
+                  <span className="block text-sm" style={{ color: '#577557' }}>
+                    Freedom and joy in the Christian life
+                  </span>
+                </li>
+                <li>
+                  <strong>The Ragamuffin Gospel</strong> by Brennan Manning
+                  <span className="block text-sm" style={{ color: '#577557' }}>
+                    God&apos;s unconditional love for the &ldquo;bedraggled, beat-up, and burnt-out&rdquo;
+                  </span>
+                </li>
+                <li>
+                  <strong>Knowing God</strong> by J.I. Packer
+                  <span className="block text-sm" style={{ color: '#577557' }}>
+                    A classic guide to understanding who God is
+                  </span>
+                </li>
+                <li>
+                  <strong>Mere Christianity</strong> by C.S. Lewis
+                  <span className="block text-sm" style={{ color: '#577557' }}>
+                    A clear explanation of core Christian beliefs
+                  </span>
+                </li>
               </ul>
             </div>
           </div>

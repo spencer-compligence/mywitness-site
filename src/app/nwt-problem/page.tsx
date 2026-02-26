@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ScriptureWarning from './components/ScriptureWarning';
@@ -95,6 +96,99 @@ export default function NWTProblemPage() {
             <p className="font-semibold" style={{ color: '#577557' }}>
               I&apos;m not asking you to trust me. I&apos;m asking you to look at the evidence yourself.
             </p>
+          </div>
+        </div>
+
+        {/* Kingdom Interlinear Photos Section */}
+        <div
+          id="kit-evidence"
+          className="rounded-xl p-8 mb-12 scroll-mt-24"
+          style={{
+            backgroundColor: '#f6f8f6',
+            borderLeft: '4px solid #d4af37'
+          }}
+        >
+          <h2
+            className="text-3xl font-serif font-semibold mb-6"
+            style={{ color: '#2f3f2f' }}
+          >
+            The Evidence: My Grandmother&apos;s Kingdom Interlinear
+          </h2>
+          <div className="space-y-6" style={{ color: '#2f3f2f', lineHeight: '1.8' }}>
+            <p className="italic" style={{ color: '#577557' }}>
+              Throughout this page, you&apos;ll see photographs from my grandmother&apos;s copy of the Kingdom
+              Interlinear Translation — published by the Watchtower Bible and Tract Society in 1969.
+              This book was designed to show readers &ldquo;what the original koiné Greek basically or
+              literally says.&rdquo; What you&apos;ll discover is that the Watchtower&apos;s own interlinear Greek
+              text repeatedly contradicts their New World Translation. These aren&apos;t claims from
+              &ldquo;apostate&rdquo; sources. This is the Watchtower&apos;s own publication exposing the
+              Watchtower&apos;s own translation.
+            </p>
+
+            {/* KIT Cover Photo */}
+            <figure className="my-8">
+              <div
+                className="rounded-xl overflow-hidden shadow-lg max-w-md mx-auto"
+                style={{ border: '1px solid #e0e8e0' }}
+              >
+                <Image
+                  src="/kit-cover.jpg"
+                  alt="The Kingdom Interlinear Translation of the Greek Scriptures - Cover"
+                  width={600}
+                  height={800}
+                  className="w-full h-auto"
+                />
+              </div>
+              <figcaption
+                className="mt-3 text-center text-sm italic"
+                style={{ color: '#5a6a5a' }}
+              >
+                The Kingdom Interlinear Translation of the Greek Scriptures — published by the
+                Watchtower Bible and Tract Society. This copy belonged to my grandmother.
+              </figcaption>
+            </figure>
+
+            {/* KIT Purpose Statement Photo */}
+            <figure className="my-8">
+              <div
+                className="rounded-xl overflow-hidden shadow-lg"
+                style={{ border: '1px solid #e0e8e0' }}
+              >
+                <Image
+                  src="/kit-purpose-statement.jpg"
+                  alt="Kingdom Interlinear Purpose Statement - showing the Watchtower's own stated goal"
+                  width={900}
+                  height={600}
+                  className="w-full h-auto"
+                />
+              </div>
+              <figcaption
+                className="mt-3 text-center text-sm italic"
+                style={{ color: '#5a6a5a' }}
+              >
+                From the Watchtower&apos;s own introduction: The interlinear shows &ldquo;what the original
+                koiné Greek basically or literally says, without any sectarian religious coloration.&rdquo;
+                They admit the interlinear often differs from the NWT — and that the interlinear reveals
+                &ldquo;what the Greek text actually, basically says.&rdquo;
+              </figcaption>
+            </figure>
+
+            <div
+              className="rounded-lg p-4"
+              style={{ backgroundColor: '#fff4e6', borderLeft: '4px solid #d4af37' }}
+            >
+              <p className="font-semibold" style={{ color: '#2f3f2f' }}>
+                Key Quote from the Introduction:
+              </p>
+              <p className="italic mt-2">
+                &ldquo;Its literal interlinear English translation is specially designed to open up to the
+                student of the Sacred Scriptures what the original koiné Greek basically or literally
+                says, without any sectarian religious coloration.&rdquo;
+              </p>
+              <p className="mt-3 text-sm" style={{ color: '#577557' }}>
+                Now let&apos;s see if the NWT lives up to this promise...
+              </p>
+            </div>
           </div>
         </div>
 

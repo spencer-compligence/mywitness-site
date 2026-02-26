@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Colossians1Evidence() {
   return (
     <div className="space-y-8">
@@ -110,19 +112,47 @@ export default function Colossians1Evidence() {
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
           <p className="text-sm mb-2" style={{ color: '#435943' }}>Greek word used:</p>
           <p className="text-lg font-semibold" style={{ color: '#2f3f2f' }}>
-            πάντα (panta) = "all things"
+            πάντα (panta) = &ldquo;all things&rdquo;
           </p>
           <p className="text-sm mt-2" style={{ color: '#577557' }}>
-            NOT πάντα τὰ ἄλλα (panta ta alla) = "all the other things"
+            NOT πάντα τὰ ἄλλα (panta ta alla) = &ldquo;all the other things&rdquo;
           </p>
         </div>
 
         <div className="rounded p-4" style={{ backgroundColor: '#fff4e6' }}>
           <p className="text-sm" style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
-            If Paul wanted to say "all other things," he knew how to write it in Greek. 
-            He deliberately wrote "all things" (panta) without any qualifier.
+            If Paul wanted to say &ldquo;all other things,&rdquo; he knew how to write it in Greek.
+            He deliberately wrote &ldquo;all things&rdquo; (panta) without any qualifier.
           </p>
         </div>
+
+        {/* KIT Photo Evidence */}
+        <figure className="my-8">
+          <div
+            className="rounded-xl overflow-hidden shadow-lg"
+            style={{ border: '2px solid #d4af37' }}
+          >
+            <Image
+              src="/kit-colossians-1.jpg"
+              alt="Kingdom Interlinear showing Colossians 1:16-17 - Greek shows 'the all things' with no word for 'other'"
+              width={900}
+              height={600}
+              className="w-full h-auto"
+            />
+          </div>
+          <figcaption
+            className="mt-4 p-4 rounded-lg"
+            style={{ backgroundColor: '#fff4e6', color: '#2f3f2f' }}
+          >
+            <p className="font-semibold mb-2 text-center">Colossians 1:16-17 in the Kingdom Interlinear</p>
+            <p className="text-sm italic text-center">
+              The Greek says &ldquo;the all things&rdquo; (τὰ πάντα / ta panta) were created through Christ.
+              There is no Greek word for &ldquo;other.&rdquo; Yet the NWT inserts &ldquo;[other]&rdquo; four
+              times to make it appear Jesus is part of creation rather than the Creator. Even their own
+              brackets admit these words were added.
+            </p>
+          </figcaption>
+        </figure>
       </div>
 
       <div className="rounded-lg p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>

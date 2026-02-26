@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function John11Evidence() {
   const [showArticleRule, setShowArticleRule] = useState(false);
@@ -71,22 +72,48 @@ export default function John11Evidence() {
         </div>
 
         {/* The Watchtower's Argument */}
-        <div 
+        <div
           className="rounded-lg p-4 mb-6"
           style={{ backgroundColor: '#fff4e6', borderLeft: '4px solid #d4af37' }}
         >
           <p className="text-sm font-semibold mb-2" style={{ color: '#435943' }}>
-            The Watchtower's Argument:
+            The Watchtower&apos;s Argument:
           </p>
           <p style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-            The Watchtower claims that because there is no definite article ("the") before 
-            "theos" (God) in the third clause, it should be translated as "a god" — 
+            The Watchtower claims that because there is no definite article (&ldquo;the&rdquo;) before
+            &ldquo;theos&rdquo; (God) in the third clause, it should be translated as &ldquo;a god&rdquo; —
             an indefinite noun referring to a lesser divine being.
           </p>
           <p className="mt-2 font-semibold" style={{ color: '#2f3f2f' }}>
             But does the Watchtower apply this rule consistently?
           </p>
         </div>
+
+        {/* KIT Photo Evidence */}
+        <figure className="my-8">
+          <div
+            className="rounded-xl overflow-hidden shadow-lg"
+            style={{ border: '2px solid #d4af37' }}
+          >
+            <Image
+              src="/kit-john-1-1.jpg"
+              alt="Kingdom Interlinear Translation showing John 1:1 - 'god was the Word' in interlinear vs 'a god' in NWT"
+              width={900}
+              height={600}
+              className="w-full h-auto"
+            />
+          </div>
+          <figcaption
+            className="mt-4 p-4 rounded-lg text-center"
+            style={{ backgroundColor: '#fff4e6', color: '#2f3f2f' }}
+          >
+            <p className="font-semibold mb-2">John 1:1 in the Kingdom Interlinear Translation</p>
+            <p className="text-sm italic">
+              The interlinear clearly shows &ldquo;god was the Word.&rdquo; There is no indefinite article
+              &ldquo;a&rdquo; in the Greek text. Yet the NWT renders it &ldquo;the Word was a god.&rdquo;
+            </p>
+          </figcaption>
+        </figure>
       </div>
 
       {/* The Article Rule Demolition */}

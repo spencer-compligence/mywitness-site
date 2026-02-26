@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function John858Evidence() {
   return (
     <div className="space-y-8">
@@ -285,12 +287,70 @@ export default function John858Evidence() {
       {/* Kingdom Interlinear */}
       <div className="rounded-xl p-6" style={{ backgroundColor: '#f6f8f6', borderLeft: '4px solid #d4af37' }}>
         <h5 className="text-xl font-semibold mb-4" style={{ color: '#2f3f2f' }}>
-          My Grandmother's Kingdom Interlinear Proves It
+          My Grandmother&apos;s Kingdom Interlinear Proves It
         </h5>
 
         <p className="mb-4" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
-          The Watchtower's own Greek-English interlinear shows the truth for John 8:58:
+          The Watchtower&apos;s own Greek-English interlinear shows the truth. First, look at John 8:18
+          — just two pages before John 8:58:
         </p>
+
+        {/* John 8:18 Photo */}
+        <figure className="my-6">
+          <div
+            className="rounded-xl overflow-hidden shadow-lg"
+            style={{ border: '2px solid #577557' }}
+          >
+            <Image
+              src="/kit-john-8-18.jpg"
+              alt="Kingdom Interlinear showing John 8:18 - ego eimi correctly translated as 'I am'"
+              width={900}
+              height={600}
+              className="w-full h-auto"
+            />
+          </div>
+          <figcaption
+            className="mt-4 p-4 rounded-lg"
+            style={{ backgroundColor: '#e8ede8', color: '#2f3f2f' }}
+          >
+            <p className="font-semibold mb-2 text-center">John 8:18 — &ldquo;I am&rdquo; (Correct Translation)</p>
+            <p className="text-sm italic text-center">
+              The Greek &ldquo;ἐγώ εἰμι&rdquo; (ego eimi) is correctly translated &ldquo;I am&rdquo; in both
+              the interlinear AND the NWT. Keep this in mind as we look at John 8:58, just two pages later...
+            </p>
+          </figcaption>
+        </figure>
+
+        <p className="mb-4" style={{ color: '#2f3f2f', lineHeight: '1.7' }}>
+          Now look at John 8:58 — the <strong>exact same Greek phrase</strong>, but watch what happens:
+        </p>
+
+        {/* John 8:58 Photo */}
+        <figure className="my-6">
+          <div
+            className="rounded-xl overflow-hidden shadow-lg"
+            style={{ border: '2px solid #d4af37' }}
+          >
+            <Image
+              src="/kit-john-8-58.jpg"
+              alt="Kingdom Interlinear showing John 8:58 - ego eimi shows 'I am' in interlinear but NWT changes it to 'I have been'"
+              width={900}
+              height={600}
+              className="w-full h-auto"
+            />
+          </div>
+          <figcaption
+            className="mt-4 p-4 rounded-lg"
+            style={{ backgroundColor: '#fff4e6', color: '#2f3f2f' }}
+          >
+            <p className="font-semibold mb-2 text-center">John 8:58 — Same Greek, Different Translation</p>
+            <p className="text-sm italic text-center">
+              The exact same Greek phrase &ldquo;ἐγώ εἰμι&rdquo; (ego eimi) that was correctly translated
+              &ldquo;I am&rdquo; in verse 18 is now rendered &ldquo;I have been&rdquo; in the NWT.
+              Same words. Same book. Same chapter. Different translation.
+            </p>
+          </figcaption>
+        </figure>
 
         <div className="rounded p-4 mb-4" style={{ backgroundColor: '#fdfdf8' }}>
           <div className="grid md:grid-cols-3 gap-4">
@@ -300,20 +360,22 @@ export default function John858Evidence() {
             </div>
             <div>
               <p className="text-xs mb-1 font-semibold" style={{ color: '#435943' }}>Interlinear (word-for-word):</p>
-              <p className="font-semibold" style={{ color: '#577557' }}>"I am"</p>
+              <p className="font-semibold" style={{ color: '#577557' }}>&ldquo;I am&rdquo;</p>
             </div>
             <div>
               <p className="text-xs mb-1 font-semibold" style={{ color: '#435943' }}>NWT Column:</p>
-              <p className="font-semibold" style={{ color: '#d4af37' }}>"I have been"</p>
+              <p className="font-semibold" style={{ color: '#d4af37' }}>&ldquo;I have been&rdquo;</p>
             </div>
           </div>
         </div>
 
-        <div className="rounded p-4" style={{ backgroundColor: '#e8ede8' }}>
-          <p style={{ color: '#2f3f2f', lineHeight: '1.6' }}>
-            Their own interlinear shows <strong>"I am"</strong> as the literal translation. 
-            Then the NWT column changes it. They know what the Greek says — 
-            they just don't want you to see it.
+        <div className="rounded p-4" style={{ backgroundColor: '#c9302c', color: '#fff' }}>
+          <p className="font-semibold mb-2">Why the Change?</p>
+          <p style={{ lineHeight: '1.6' }}>
+            Because in this context, Jesus is clearly claiming the divine name from Exodus 3:14 —
+            and the Jews picked up stones to kill Him for blasphemy. Their own interlinear shows
+            &ldquo;I am&rdquo; as the literal translation. Then the NWT column changes it. They know
+            what the Greek says — they just don&apos;t want you to see it.
           </p>
         </div>
       </div>

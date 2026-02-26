@@ -297,10 +297,7 @@ export default function MyStoryPage() {
                   href="https://gcmco.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline transition-colors"
-                  style={{ color: '#577557' }}
-                  onMouseEnter={(e) => { e.currentTarget.style.color = '#d4af37'; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.color = '#577557'; }}
+                  className="underline transition-colors text-sage-600 hover:text-gold"
                 >
                   Great Commission Ministries
                 </a>

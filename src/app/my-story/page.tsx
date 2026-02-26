@@ -15,21 +15,34 @@ export default function MyStoryPage() {
 
       {/* Hero Section */}
       <section
-        className="relative pt-24 pb-16 md:pt-32 md:pb-24 px-4 hero-gradient-light hero-pattern-light"
+        className="py-20 px-4"
+        style={{
+          backgroundImage: 'linear-gradient(to bottom, #e8ede8, #fdfdf8)',
+        }}
       >
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center">
           <h1
-            className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6"
-            style={{ color: '#fdfdf8' }}
+            className="text-5xl md:text-6xl font-serif font-bold mb-6"
+            style={{ color: '#2f3f2f' }}
           >
             My Story
           </h1>
           <p
-            className="text-lg md:text-xl max-w-2xl mx-auto"
-            style={{ color: 'rgba(253, 253, 248, 0.9)', lineHeight: '1.8' }}
+            className="text-xl md:text-2xl mb-4"
+            style={{ color: '#577557', lineHeight: '1.6' }}
           >
-            I was born into the Jehovah's Witnesses on February 4, 1976. I didn't choose it — I was simply raised in it, the same way you might have been. For 34 years, it was all I knew.
+            Born into the Jehovah's Witnesses. 34 years of believing a lie.
           </p>
+          <p
+            className="text-lg mb-8 max-w-2xl mx-auto"
+            style={{ color: '#2f3f2f', lineHeight: '1.6' }}
+          >
+            I didn't choose it — I was simply raised in it, the same way you might have been. This is the story of how I discovered the truth about Jesus.
+          </p>
+          <div
+            className="w-24 h-1 mx-auto"
+            style={{ backgroundColor: '#d4af37' }}
+          />
         </div>
       </section>
 

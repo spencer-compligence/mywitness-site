@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import JourneyCards from './components/JourneyCards';
@@ -19,6 +20,37 @@ export default function HomePage() {
         ctaText="Begin Your Journey"
         ctaLink="#journey"
       />
+
+      {/* Bible Comparison Image */}
+      <section
+        className="py-16 px-4"
+        style={{ backgroundColor: '#f6f8f6' }}
+      >
+        <div className="max-w-4xl mx-auto">
+          <figure>
+            <div
+              className="rounded-xl overflow-hidden shadow-xl"
+              style={{ border: '2px solid #e0e8e0' }}
+            >
+              <Image
+                src="/nwt-vs-real-bibles.jpg"
+                alt="Comparison of 8 Bible translations showing the New World Translation stands alone in its rendering"
+                width={1200}
+                height={800}
+                className="w-full h-auto"
+                priority
+              />
+            </div>
+            <figcaption
+              className="mt-4 text-center text-lg italic"
+              style={{ color: '#2f3f2f', lineHeight: '1.6' }}
+            >
+              &ldquo;Eight translations — including the Watchtower&apos;s own Kingdom Interlinear — all agree.
+              The New World Translation stands alone.&rdquo;
+            </figcaption>
+          </figure>
+        </div>
+      </section>
 
       {/* 7-Step Journey Cards */}
       <JourneyCards />

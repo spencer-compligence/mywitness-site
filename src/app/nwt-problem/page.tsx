@@ -56,6 +56,32 @@ export default function NWTProblemPage() {
         </div>
       </div>
 
+      {/* Bible Comparison Image */}
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <figure>
+          <div
+            className="rounded-xl overflow-hidden shadow-xl"
+            style={{ border: '2px solid #e0e8e0' }}
+          >
+            <Image
+              src="/nwt-vs-real-bibles.jpg"
+              alt="Comparison of 8 Bible translations showing the New World Translation stands alone in its rendering"
+              width={1200}
+              height={800}
+              className="w-full h-auto"
+              priority
+            />
+          </div>
+          <figcaption
+            className="mt-4 text-center text-lg italic"
+            style={{ color: '#2f3f2f', lineHeight: '1.6' }}
+          >
+            &ldquo;Eight translations — including the Watchtower&apos;s own Kingdom Interlinear — all agree.
+            The New World Translation stands alone.&rdquo;
+          </figcaption>
+        </figure>
+      </div>
+
       {/* Introduction */}
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div

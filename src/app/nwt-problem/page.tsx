@@ -76,8 +76,8 @@ export default function NWTProblemPage() {
             className="mt-4 text-center text-lg italic"
             style={{ color: '#2f3f2f', lineHeight: '1.6' }}
           >
-            &ldquo;Eight translations — including the Watchtower&apos;s own Kingdom Interlinear — all agree.
-            The New World Translation stands alone.&rdquo;
+            &ldquo;Every major Bible translation agrees — including the Watchtower&apos;s own Kingdom Interlinear.
+            Only the New World Translation disagrees.&rdquo;
           </figcaption>
         </figure>
       </div>
